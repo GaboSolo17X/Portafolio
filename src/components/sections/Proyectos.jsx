@@ -1,30 +1,37 @@
+import { motion } from 'framer-motion';
+
 export const Proyectos = () => {
   return (
     <>
-      <main className="h-full">
+      <motion.main       
+      initial={{ opacity: 0, x: -100 }} 
+      animate={{ opacity: 1, x: 0 }}    
+      exit={{ opacity: 0, x: 100 }}     
+      transition={{ duration: 0.5 }}    
+      className="h-full">
         <div className="flex justify-evenly w-full h-[8%]">
-          <button className="w-40 p-5 border-4 rounded-full hover:bg-salmon bg-secondary border-primary shadow-retro text-primary 
-                           dark:bg-primary dark dark:border-secondary dark:text-secondary dark:shadow-retroDark">
+          <button className="w-40 p-5 border-4 rounded-full shadow-retro hover:bg-salmon bg-secondary border-primary  text-primary 
+                           dark:bg-primary dark:border-secondary dark:text-secondary dark:shadow-retroDark">
             Todos
           </button>
-          <button className="w-40 p-5 border-4 rounded-full hover:bg-salmon bg-secondary border-primary shadow-retro text-primary 
-                           dark:bg-primary dark dark:border-secondary dark:text-secondary dark:shadow-retroDark">
+          <button className="w-40 p-5 border-4 rounded-full shadow-retro hover:bg-salmon bg-secondary border-primary  text-primary 
+                           dark:bg-primary dark:border-secondary dark:text-secondary dark:shadow-retroDark">
             Full-Stack
           </button>
-          <button className="w-40 p-5 border-4 rounded-full hover:bg-salmon bg-secondary border-primary shadow-retro text-primary 
-                           dark:bg-primary dark dark:border-secondary dark:text-secondary dark:shadow-retroDark">
+          <button className="w-40 p-5 border-4 rounded-full shadow-retro hover:bg-salmon bg-secondary border-primary  text-primary 
+                           dark:bg-primary dark:border-secondary dark:text-secondary dark:shadow-retroDark">
             Frontend
           </button>
-          <button className="w-40 p-5 border-4 rounded-full hover:bg-salmon bg-secondary border-primary shadow-retro text-primary 
-                           dark:bg-primary dark dark:border-secondary dark:text-secondary dark:shadow-retroDark">
+          <button className="w-40 p-5 border-4 rounded-full shadow-retro hover:bg-salmon bg-secondary border-primary  text-primary 
+                           dark:bg-primary dark:border-secondary dark:text-secondary dark:shadow-retroDark">
             Backend
           </button>
-          <button className="w-40 p-5 border-4 rounded-full hover:bg-salmon bg-secondary border-primary shadow-retro text-primary 
-                           dark:bg-primary dark dark:border-secondary dark:text-secondary dark:shadow-retroDark">
+          <button className="w-40 p-5 border-4 rounded-full shadow-retro hover:bg-salmon bg-secondary border-primary  text-primary 
+                           dark:bg-primary dark:border-secondary dark:text-secondary dark:shadow-retroDark">
             UI/UX
           </button>
-          <button className="w-40 p-5 border-4 rounded-full hover:bg-salmon bg-secondary border-primary shadow-retro text-primary 
-                           dark:bg-primary dark dark:border-secondary dark:text-secondary dark:shadow-retroDark">
+          <button className="w-40 p-5 border-4 rounded-full shadow-retro hover:bg-salmon bg-secondary border-primary  text-primary 
+                           dark:bg-primary dark:border-secondary dark:text-secondary dark:shadow-retroDark">
             BI
           </button>
         </div>
@@ -83,7 +90,7 @@ export const Proyectos = () => {
             </li>
           </ul>
         </section>
-      </main>
+      </motion.main>
     </>
   );
 };

@@ -1,5 +1,3 @@
-import español from "../../images/languages/spainFlag.svg";
-import { Toggle } from "./toggle";
 
 // fixed left-4 top-1/2 -translate-y-1/2
 //flex justify-center w-[500px]

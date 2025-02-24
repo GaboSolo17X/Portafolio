@@ -1,4 +1,4 @@
-import ProfilePicture from "../../images/pp.png";
+import ProfilePicture from "/images/pp.png";
 export const SobreMi = () => {
   return (
     <>

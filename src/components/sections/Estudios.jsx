@@ -1,4 +1,4 @@
-import español from "../../images/languages/spainFlag.svg";
+import español from "/images/languages/spainFlag.svg";
 export const Estudios = () => {
   return (
     <>

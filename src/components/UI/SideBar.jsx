@@ -1,6 +1,6 @@
 import { NavLink } from "react-router";
-import español from "../../images/languages/spainFlag.svg";
-import ingles from "../../images/languages/usaFlag.svg";
+import español from "/images/languages/spainFlag.svg";
+import ingles from "/images/languages/usaFlag.svg";
 import { Toggle } from "./toggle";
 import { useContext} from "react";
 import { TitleContext } from "../../context/TitleProvider";

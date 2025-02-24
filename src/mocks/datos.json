@@ -23,18 +23,22 @@
           "subTitle": "Tecnologias Principales",
           "description": [
             {
+              "id": "1",
               "tec": "HTML",
               "icon": "fa-"
             },
             {
+              "id": "2",
               "tec": "CSS",
               "icon": "fa-"
             },
             {
+              "id": "3",
               "tec": "Javascript",
               "icon": "fa-"
             },
             {
+              "id": "4",
               "tec": "SQL Server",
               "icon": "fa-"
             }
@@ -46,10 +50,12 @@
       "title": "Experiencia",
       "content": [
         {
+          "id": "1",
           "company": "Banco Centroamericano de Integracion Economica",
           "job": "Analisis y gestion de calidad de datos",
-          "description": ".....",
-          "image": "....",
+          "description": " ",
+          "image": "/images/experiencia/bcie.png",
+          "alt": "BCIE Logo",
           "date": "18/09/2024 - 05/02/2025"
         }
       ]
@@ -59,13 +65,16 @@
       "categories": ["Frontend", "Backend", "UI/UX"],
       "content": [
         {
+          "id": "1",
           "name": "Diseño de aplicacion de Viajes",
-          "category":"UI/UX",
+          "category": "UI/UX",
           "description": "Proyecto para poder practicar las habilidades de UI/UX.",
           "tecs": [
             {
+              "idTec": "1",
               "tec": "Figma",
-              "icon": "fa-"
+              "icon": "fa-",
+              "link": ""
             }
           ]
         }
@@ -76,66 +85,79 @@
       "categories": ["Frontend", "Backend", "Herramientas", "Aprendiendo"],
       "content": [
         {
+          "id": "1",
           "area": "Frontend",
           "skill": "HTML",
           "icon": "fa-"
         },
         {
+          "id": "2",
           "area": "Frontend",
           "skill": "CSS",
           "icon": "fa-"
         },
         {
+          "id": "3",
           "area": "Frontend",
           "skill": "Javascript",
           "icon": "fa-"
         },
         {
+          "id": "4",
           "area": "Herramientas",
           "skill": "Postman",
           "icon": "fa-"
         },
         {
+          "id": "5",
           "area": "Herramientas",
           "skill": "Figma",
           "icon": "fa-"
         },
         {
+          "id": "6",
           "area": "Herramientas",
           "skill": "VS Code",
           "icon": "fa-"
         },
         {
+          "id": "7",
           "area": "Herramientas",
           "skill": "Github",
           "icon": "fa-"
         },
         {
+          "id": "8",
           "area": "Herramientas",
           "skill": "Tableau",
           "icon": "fa-"
         },
         {
+          "id": "9",
           "area": "Backend",
           "skill": "SQL Server",
           "icon": "fa-"
         },
         {
+          "id": "10",
           "area": "Frontend",
           "skill": "Bootstrap",
           "icon": "fa-"
         },
         {
+          "id": "11",
           "area": "Aprendiendo",
           "skill": "UI Guide",
           "icon": "fa-"
         },
         {
+          "id": "12",
           "area": "Aprendiendo",
           "skill": "Mongo DB",
           "icon": "fa-"
         },
         {
+          "id": "13",
           "area": "Aprendiendo",
           "skill": "Node",
           "icon": "fa-"
@@ -149,6 +171,7 @@
           "category": "Titulo",
           "info": [
             {
+              "id": "1",
               "degree": "Ingenieria en Sistemas",
               "institution": "Universidad Nacional Autonoma de Honduras",
               "year": "2020 - 2025",
@@ -160,6 +183,7 @@
           "category": "Certificados",
           "info": [
             {
+              "id": "1",
               "title": "UI/UX Figma Essentials",
               "institution": "UDEMY",
               "link": "...."
@@ -170,10 +194,12 @@
           "category": "Idiomas",
           "info": [
             {
+              "id": "1",
               "idiom": "Español",
               "detail": "Nativo"
             },
             {
+              "id": "1",
               "idiom": "Ingles",
               "detail": "C2",
               "link": "...."
@@ -184,41 +210,60 @@
     },
     "art": {
       "title": "Arte",
-      "content": [
-        {
-          "subTitle": "Presentacion",
-          "description": "Hola soy G4BZ.ART Ademas de mis estudios academicos tambien disfruto practicar mi hobby favorito dibujar el cual tengo ya 2 años subiendo contenido en mis redes."
-        },
-        {
-          "subTitle": "Ilustraciones",
-          "description": "Para ver otras ilustraciones mira mi instagram o behance. Me gusta realizar ilustraciones donde mis personajes se encuentran en una situacion y cuentan una historia.",
-          "ilustrations": [
-            {
-              "name":"Magic",
-              "url":",,",
-              "css":""
-            }
-          ]
-        },
-        
-        {
-          "subTitle": "Herramientas",
-          "description": [
-            {
-              "tec": "Skecthbook Pro",
-              "ico": "fa-"
-            },
-            {
-              "tec": "Krita",
-              "ico": "fa-"
-            },
-            {
-              "tec": "Canva",
-              "ico": "fa-"
-            }
-          ]
-        }
-      ]
+      "content": {
+        "Presentation": "Presentacion",
+        "description": [
+          {
+            "phrase1": "Hola soy",
+            "phrase2": "G4BZ.ART",
+            "phrase3": "Ademas de mis estudios academicos tambien disfruto practicar mi hobby favorito dibujar el cual tengo ya 2 años subiendo contenido en mis redes."
+          }
+        ],
+        "profilePic": "/images/art/Alost.png",
+        "behance":"https://www.behance.net/G4BZ",
+        "instagram":"https://www.instagram.com/g4bz.draw/?hl=es-la",
+        "email":"Gabotoons17@gmail.com",
+        "ilustrationTitle":"ILUSTRACIONES",
+        "ilustrationText": "Para ver otras ilustraciones mira mi instagram o behance. Me gusta realizar ilustraciones donde mis personajes se encuentran en una situacion y cuentan una historia.",
+        "ilustrations": [
+          {
+            "id": "1",
+            "name": "7Friends",
+            "url": "/images/art/7Friends.png",
+            "css": "col-span-2"
+          },
+          {
+            "id": "2",
+            "name": "Fantasy",
+            "url": "/images/art/FantasyR.png",
+            "css": ""
+          },
+          {
+            "id": "3",
+            "name": "TwoLifes",
+            "url": "images/art/TwoLifes.jpg",
+            "css": "w-[714px] h-[714px]"
+          }
+        ],
+        "toolsTitle":"PROGRAMAS PRINCIPALES",
+        "tools": [
+          {
+            "id": "1",
+            "tec": "Skecthbook Pro",
+            "icon": "/icons/sketchbook.svg"
+          },
+          {
+            "id": "2",
+            "tec": "Krita",
+            "icon": "/icons/krita.svg"
+          },
+          {
+            "id": "3",
+            "tec": "Canva",
+            "icon": "/icons/canva.svg"
+          }
+        ]
+      }
     }
   }
 }
