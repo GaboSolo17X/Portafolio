@@ -1,0 +1,224 @@
+{
+  "ES": {
+    "sidebar": {
+      "about": "Sobre Mi",
+      "experience": "Experiencia",
+      "projects": "Proyectos",
+      "skills": "Habilidades",
+      "education": "Estudios",
+      "art": "Arte"
+    },
+    "about": {
+      "title": "Sobre Mí",
+      "content": [
+        {
+          "subTitle": "Presentacion",
+          "description": "Hola soy GABRIEL SOLORZANO Un ingeniero en sistemas que le gusta el Desarrollo de Software y el Analisis de Datos"
+        },
+        {
+          "subTitle": "Sobre Mi",
+          "description": "Soy una persona altamente comprometida con el aprendizaje continuo y el desarrollo personal y profesional. Cuando enfrento un tema o herramienta desconocida, invierto mi tiempo en investigarlo, practicarlo y buscar asesoría para dominarlo. Mi enfoque es siempre dar lo mejor de mí en cada proyecto, asegurándome de entregar resultados de alta calidad y aprendiendo de cada experiencia"
+        },
+        {
+          "subTitle": "Tecnologias Principales",
+          "description": [
+            {
+              "tec": "HTML",
+              "icon": "fa-"
+            },
+            {
+              "tec": "CSS",
+              "icon": "fa-"
+            },
+            {
+              "tec": "Javascript",
+              "icon": "fa-"
+            },
+            {
+              "tec": "SQL Server",
+              "icon": "fa-"
+            }
+          ]
+        }
+      ]
+    },
+    "experience": {
+      "title": "Experiencia",
+      "content": [
+        {
+          "company": "Banco Centroamericano de Integracion Economica",
+          "job": "Analisis y gestion de calidad de datos",
+          "description": ".....",
+          "image": "....",
+          "date": "18/09/2024 - 05/02/2025"
+        }
+      ]
+    },
+    "projects": {
+      "title": "Proyectos",
+      "categories": ["Frontend", "Backend", "UI/UX"],
+      "content": [
+        {
+          "name": "Diseño de aplicacion de Viajes",
+          "category":"UI/UX",
+          "description": "Proyecto para poder practicar las habilidades de UI/UX.",
+          "tecs": [
+            {
+              "tec": "Figma",
+              "icon": "fa-"
+            }
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "title": "Habilidades",
+      "categories": ["Frontend", "Backend", "Herramientas", "Aprendiendo"],
+      "content": [
+        {
+          "area": "Frontend",
+          "skill": "HTML",
+          "icon": "fa-"
+        },
+        {
+          "area": "Frontend",
+          "skill": "CSS",
+          "icon": "fa-"
+        },
+        {
+          "area": "Frontend",
+          "skill": "Javascript",
+          "icon": "fa-"
+        },
+        {
+          "area": "Herramientas",
+          "skill": "Postman",
+          "icon": "fa-"
+        },
+        {
+          "area": "Herramientas",
+          "skill": "Figma",
+          "icon": "fa-"
+        },
+        {
+          "area": "Herramientas",
+          "skill": "VS Code",
+          "icon": "fa-"
+        },
+        {
+          "area": "Herramientas",
+          "skill": "Github",
+          "icon": "fa-"
+        },
+        {
+          "area": "Herramientas",
+          "skill": "Tableau",
+          "icon": "fa-"
+        },
+        {
+          "area": "Backend",
+          "skill": "SQL Server",
+          "icon": "fa-"
+        },
+        {
+          "area": "Frontend",
+          "skill": "Bootstrap",
+          "icon": "fa-"
+        },
+        {
+          "area": "Aprendiendo",
+          "skill": "UI Guide",
+          "icon": "fa-"
+        },
+        {
+          "area": "Aprendiendo",
+          "skill": "Mongo DB",
+          "icon": "fa-"
+        },
+        {
+          "area": "Aprendiendo",
+          "skill": "Node",
+          "icon": "fa-"
+        }
+      ]
+    },
+    "education": {
+      "title": "Educación",
+      "content": [
+        {
+          "category": "Titulo",
+          "info": [
+            {
+              "degree": "Ingenieria en Sistemas",
+              "institution": "Universidad Nacional Autonoma de Honduras",
+              "year": "2020 - 2025",
+              "status": "Por graduar"
+            }
+          ]
+        },
+        {
+          "category": "Certificados",
+          "info": [
+            {
+              "title": "UI/UX Figma Essentials",
+              "institution": "UDEMY",
+              "link": "...."
+            }
+          ]
+        },
+        {
+          "category": "Idiomas",
+          "info": [
+            {
+              "idiom": "Español",
+              "detail": "Nativo"
+            },
+            {
+              "idiom": "Ingles",
+              "detail": "C2",
+              "link": "...."
+            }
+          ]
+        }
+      ]
+    },
+    "art": {
+      "title": "Arte",
+      "content": [
+        {
+          "subTitle": "Presentacion",
+          "description": "Hola soy G4BZ.ART Ademas de mis estudios academicos tambien disfruto practicar mi hobby favorito dibujar el cual tengo ya 2 años subiendo contenido en mis redes."
+        },
+        {
+          "subTitle": "Ilustraciones",
+          "description": "Para ver otras ilustraciones mira mi instagram o behance. Me gusta realizar ilustraciones donde mis personajes se encuentran en una situacion y cuentan una historia.",
+          "ilustrations": [
+            {
+              "name":"Magic",
+              "url":",,",
+              "css":""
+            }
+          ]
+        },
+        
+        {
+          "subTitle": "Herramientas",
+          "description": [
+            {
+              "tec": "Skecthbook Pro",
+              "ico": "fa-"
+            },
+            {
+              "tec": "Krita",
+              "ico": "fa-"
+            },
+            {
+              "tec": "Canva",
+              "ico": "fa-"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

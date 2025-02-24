@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=VT323&display=swap');
+
+@import "tailwindcss";
+
+
+/* @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *)); */
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+@theme {
+  --font-display: "Satoshi", "sans-serif";
+  --font-title:"VT323","serif";
+  --font-body:"Inter","serif";
+  --shadow-retro: 9px 5px #252525;
+  --shadow-retroDark: 9px 2px #F8F7F3;
+  --color-salmon: #FD6967;
+  --color-primary: #F8F7F3;
+  --color-secondary: #252525;
+  --color-artBlue: #014BF0;
+  --color-artPink: #FF1560;
+}
+
+
+.sideBarIcon{
+  @apply relative flex items-center justify-center
+  h-10 w-10 mt-1 mb-1 mx-auto rounded-lg
+  transition-transform duration-200 ease-in-out 
+  hover:bg-salmon hover:text-primary hover:scale-110
+
+  /* transition transform 0.2s ease, background-color 0.2s ease, color 0.2s ease; */
+
+}
+
+.sideBarIconArt{
+  @apply relative flex items-center justify-center
+  h-10 w-10 mt-1 mb-1 mx-auto rounded-lg
+  transition-transform duration-200 ease-in-out 
+  hover:bg-gradient-to-r from-artPink to-artBlue hover:text-primary hover:scale-110
+  
+}
+
+.tooltip{
+  @apply absolute w-auto p-2 -m-4 min-w-max left-20 rounded-md
+  text-primary bg-secondary dark:bg-primary dark:text-secondary
+  text-xs font-bold
+  transition-all duration-100  origin-left
+ 
+}
+
+
+
+.toggle-btn{
+  background-color: oklch(26.45% 0 0);
+  border: 2px solid oklch(26.45% 0 0);
+  border-radius: 99px;
+  width: 40px;
+  height: 20px;
+  transition: background-color 0.13 ease, border-color 0.12s ease;
+  cursor:pointer;
+  
+}
+
+.toggle-btn .thumb{
+  height: 10px;
+  width: 10px;
+  background-color: oklch(70.54% 0.1817 23.68);
+  border-radius: 99px;
+  transition: left 0.18s ease;
+  position:absolute;
+  transform: translateY(-50%);
+  margin-left: 5px;
+}
+
+.toggle-btn.toggled{
+  background-color: oklch(97.58% 0.0054 95.1);
+}
+
+.toggle-btn.toggled .thumb{
+  left: calc(42px - 15px);
+}
+
+.linkActivo{
+  @apply  bg-salmon text-primary scale-110
+  relative flex items-center justify-center
+  h-10 w-10 mt-1 mb-1 mx-auto rounded-lg
+  transition-transform duration-200 ease-in-out 
+}
+
+.linkActivoArte{
+  @apply  bg-gradient-to-r from-artPink to-artBlue text-primary scale-110
+  relative flex items-center justify-center
+  h-10 w-10 mt-1 mb-1 mx-auto rounded-lg
+  transition-transform duration-200 ease-in-out 
+}
+
+
