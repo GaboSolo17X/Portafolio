@@ -82,7 +82,28 @@
     },
     "skills": {
       "title": "Habilidades",
-      "categories": ["Frontend", "Backend", "Herramientas", "Aprendiendo"],
+      "categories": [
+        {
+          "id": 1,
+          "name": "Frontend"
+        },
+        {
+          "id": 2,
+          "name": "Backend"
+        },
+        {
+          "id": 3,
+          "name": "Herramientas"
+        },
+        {
+          "id": 4,
+          "name": "Aprendiendo"
+        },
+        {
+          "id": 5,
+          "name": "BI"
+        }
+      ],
       "content": [
         {
           "id": "1",
@@ -134,7 +155,7 @@
         },
         {
           "id": "9",
-          "area": "Backend",
+          "area": "BI",
           "skill": "SQL Server",
           "icon": "fa-"
         },
@@ -220,10 +241,10 @@
           }
         ],
         "profilePic": "/images/art/Alost.png",
-        "behance":"https://www.behance.net/G4BZ",
-        "instagram":"https://www.instagram.com/g4bz.draw/?hl=es-la",
-        "email":"Gabotoons17@gmail.com",
-        "ilustrationTitle":"ILUSTRACIONES",
+        "behance": "https://www.behance.net/G4BZ",
+        "instagram": "https://www.instagram.com/g4bz.draw/?hl=es-la",
+        "email": "Gabotoons17@gmail.com",
+        "ilustrationTitle": "ILUSTRACIONES",
         "ilustrationText": "Para ver otras ilustraciones mira mi instagram o behance. Me gusta realizar ilustraciones donde mis personajes se encuentran en una situacion y cuentan una historia.",
         "ilustrations": [
           {
@@ -245,7 +266,7 @@
             "css": "w-[714px] h-[714px]"
           }
         ],
-        "toolsTitle":"PROGRAMAS PRINCIPALES",
+        "toolsTitle": "PROGRAMAS PRINCIPALES",
         "tools": [
           {
             "id": "1",
