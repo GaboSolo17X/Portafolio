@@ -62,21 +62,27 @@
     },
     "projects": {
       "title": "Proyectos",
-      "categories": ["Frontend", "Backend", "UI/UX"],
+      "categories": ["Frontend", "Backend", "UI/UX", "BI","FullStack"],
       "content": [
         {
           "id": "1",
-          "name": "Diseño de aplicacion de Viajes",
+          "name": "PlanCo",
           "category": "UI/UX",
+          "image":"/images/projects/travelApp.png",
           "description": "Proyecto para poder practicar las habilidades de UI/UX.",
           "tecs": [
             {
               "idTec": "1",
               "tec": "Figma",
-              "icon": "fa-",
-              "link": ""
+              "icon": "fa-brands fa-figma" 
             }
-          ]
+          ],
+          "links":[
+                {
+                  "web":"Figma",
+                  "url":"https://www.figma.com/design/xHHV1d4exKHhRd5NJ8D2I2/Brief-To-Travel-Website?node-id=487-3134&t=OW7MYylTl6mCnYVP-1"
+                }
+              ]
         }
       ]
     },
@@ -97,91 +103,98 @@
         },
         {
           "id": 4,
-          "name": "Aprendiendo"
+          "name": "BI"
         },
         {
           "id": 5,
-          "name": "BI"
+          "name": "Aprendiendo"
         }
+
       ],
       "content": [
         {
-          "id": "1",
+          "id": 1,
           "area": "Frontend",
           "skill": "HTML",
-          "icon": "fa-"
+          "icon": "fa-brands fa-html5"
         },
         {
-          "id": "2",
+          "id": 2,
           "area": "Frontend",
           "skill": "CSS",
-          "icon": "fa-"
+          "icon": "fa-brands fa-css3-alt"
         },
         {
-          "id": "3",
+          "id": 3,
           "area": "Frontend",
           "skill": "Javascript",
-          "icon": "fa-"
+          "icon": "fa-brands fa-js"
         },
         {
-          "id": "4",
+          "id": 4,
           "area": "Herramientas",
           "skill": "Postman",
-          "icon": "fa-"
+          "icon": " "
         },
         {
-          "id": "5",
+          "id": 5,
           "area": "Herramientas",
           "skill": "Figma",
-          "icon": "fa-"
+          "icon": "fa-brands fa-figma"
         },
         {
-          "id": "6",
+          "id": 6,
           "area": "Herramientas",
           "skill": "VS Code",
-          "icon": "fa-"
+          "icon": " "
         },
         {
-          "id": "7",
+          "id": 7,
           "area": "Herramientas",
           "skill": "Github",
-          "icon": "fa-"
+          "icon": "fa-brands fa-github"
         },
         {
-          "id": "8",
-          "area": "Herramientas",
+          "id": 8,
+          "area": "BI",
           "skill": "Tableau",
-          "icon": "fa-"
+          "icon": " "
         },
         {
-          "id": "9",
+          "id": 9,
           "area": "BI",
           "skill": "SQL Server",
-          "icon": "fa-"
+          "icon": " "
         },
         {
-          "id": "10",
+          "id": 10,
           "area": "Frontend",
           "skill": "Bootstrap",
-          "icon": "fa-"
+          "icon": "fa-brands fa-bootstrap"
         },
         {
-          "id": "11",
+          "id": 11,
           "area": "Aprendiendo",
           "skill": "UI Guide",
-          "icon": "fa-"
+          "icon": " "
         },
         {
-          "id": "12",
+          "id": 12,
           "area": "Aprendiendo",
           "skill": "Mongo DB",
-          "icon": "fa-"
+          "icon": " "
         },
         {
-          "id": "13",
+          "id": 13,
           "area": "Aprendiendo",
           "skill": "Node",
-          "icon": "fa-"
+          "icon":"fa-brands fa-node-js"
+        },
+        {
+          "id": 13,
+          "area": "Frontend",
+          "skill": "Vue",
+          "icon": "fa-brands fa-vuejs"
         }
       ]
     },
@@ -196,7 +209,8 @@
               "degree": "Ingenieria en Sistemas",
               "institution": "Universidad Nacional Autonoma de Honduras",
               "year": "2020 - 2025",
-              "status": "Por graduar"
+              "status": "Por graduar",
+              "logo": "/images/estudios/UNAH.png"
             }
           ]
         },
@@ -207,6 +221,8 @@
               "id": "1",
               "title": "UI/UX Figma Essentials",
               "institution": "UDEMY",
+              "logo":"/images/estudios/udemy.png",
+              "year":"2024",
               "link": "...."
             }
           ]
@@ -215,15 +231,17 @@
           "category": "Idiomas",
           "info": [
             {
-              "id": "1",
+              "id": 1,
               "idiom": "Español",
-              "detail": "Nativo"
+              "detail": "Nativo",
+              "flag":"/images/languages/spanish.svg"
             },
             {
-              "id": "1",
+              "id": 2,
               "idiom": "Ingles",
               "detail": "C2",
-              "link": "...."
+              "link": "....",
+              "flag":"/images/languages/english.svg"
             }
           ]
         }

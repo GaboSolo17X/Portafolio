@@ -26,7 +26,7 @@ export const Habilidades = () => {
                   {datos.name}
                 </span>
               </header>
-              <ul className="grid grid-cols-4 h-[calc(100%-44px)] p-2 gap-4 ">
+              <ul className="grid grid-cols-4  p-2 gap-4 auto-rows-min">
                 {skills.content
                   .filter((skill) => skill.area === datos.name)
                   .map((dato) => (
@@ -35,7 +35,8 @@ export const Habilidades = () => {
                       className="flex  gap-2 justify-center items-center h-14 bg-secondary text-primary px-4 py-2 rounded-full font-body text-[1.2rem] 
                      dark:bg-primary dark:text-secondary"
                     >
-                      <i className="fa-brands fa-linkedin fa-lg mr-2"></i>
+                      <i className={`${dato.icon} fa-lg mr-2`}></i>
+                      
                       <span>{dato.skill}</span>
                     </li>
                   ))}
