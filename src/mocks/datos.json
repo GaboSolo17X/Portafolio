@@ -10,41 +10,48 @@
     },
     "about": {
       "title": "Sobre Mí",
-      "content": [
-        {
-          "subTitle": "Presentacion",
-          "description": "Hola soy GABRIEL SOLORZANO Un ingeniero en sistemas que le gusta el Desarrollo de Software y el Analisis de Datos"
-        },
-        {
-          "subTitle": "Sobre Mi",
-          "description": "Soy una persona altamente comprometida con el aprendizaje continuo y el desarrollo personal y profesional. Cuando enfrento un tema o herramienta desconocida, invierto mi tiempo en investigarlo, practicarlo y buscar asesoría para dominarlo. Mi enfoque es siempre dar lo mejor de mí en cada proyecto, asegurándome de entregar resultados de alta calidad y aprendiendo de cada experiencia"
-        },
-        {
-          "subTitle": "Tecnologias Principales",
-          "description": [
-            {
-              "id": "1",
-              "tec": "HTML",
-              "icon": "fa-"
-            },
-            {
-              "id": "2",
-              "tec": "CSS",
-              "icon": "fa-"
-            },
-            {
-              "id": "3",
-              "tec": "Javascript",
-              "icon": "fa-"
-            },
-            {
-              "id": "4",
-              "tec": "SQL Server",
-              "icon": "fa-"
-            }
-          ]
-        }
-      ]
+      "content": {
+        "Presentation": "Presentacion",
+        "description": [
+          {
+            "phrase1": "Hola soy",
+            "phrase2": "GABRIEL SOLORZANO",
+            "phrase3": "Un ingeniero en sistemas que le gusta el",
+            "phrase4":" Desarrollo de Software",
+            "phrase5":" y el",
+            "phrase6":" Analisis de Datos"
+          }
+        ],
+        "profilePic": "/images/pp.png",
+        "github": "https://github.com/GaboSolo17X",
+        "linkedin": "https://www.linkedin.com/in/gabriel-solorzano-79177823b/",
+        "email": "Gabosolorzano17@gmail.com",
+        "aboutMeTitle": "SOBRE MI",
+        "aboutMeText": "Soy una persona altamente comprometida con el aprendizaje continuo y el desarrollo personal y profesional. Cuando enfrento un tema o herramienta desconocida, invierto mi tiempo en investigarlo, practicarlo y buscar asesoría para dominarlo. Mi enfoque es siempre dar lo mejor de mí en cada proyecto, asegurándome de entregar resultados de alta calidad y aprendiendo de cada experiencia.",
+        "prinTextTitle": "Tecnologias Principales",
+        "tecs": [
+          {
+            "id": "1",
+            "tec": "HTML",
+            "icon": "fa-brands fa-html5"
+          },
+          {
+            "id": "2",
+            "tec": "CSS",
+            "icon": "fa-brands fa-css3-alt"
+          },
+          {
+            "id": "3",
+            "tec": "Javascript",
+            "icon": "fa-brands fa-js"
+          },
+          {
+            "id": "4",
+            "tec": "SQL Server",
+            "icon": "fa-"
+          }
+        ]
+      }
     },
     "experience": {
       "title": "Experiencia",
@@ -62,27 +69,27 @@
     },
     "projects": {
       "title": "Proyectos",
-      "categories": ["Frontend", "Backend", "UI/UX", "BI","FullStack"],
+      "categories": ["Frontend", "Backend", "UI/UX", "BI", "FullStack"],
       "content": [
         {
           "id": "1",
           "name": "PlanCo",
           "category": "UI/UX",
-          "image":"/images/projects/travelApp.png",
+          "image": "/images/projects/travelApp.png",
           "description": "Proyecto para poder practicar las habilidades de UI/UX.",
           "tecs": [
             {
               "idTec": "1",
               "tec": "Figma",
-              "icon": "fa-brands fa-figma" 
+              "icon": "fa-brands fa-figma"
             }
           ],
-          "links":[
-                {
-                  "web":"Figma",
-                  "url":"https://www.figma.com/design/xHHV1d4exKHhRd5NJ8D2I2/Brief-To-Travel-Website?node-id=487-3134&t=OW7MYylTl6mCnYVP-1"
-                }
-              ]
+          "links": [
+            {
+              "web": "Figma",
+              "url": "https://www.figma.com/design/xHHV1d4exKHhRd5NJ8D2I2/Brief-To-Travel-Website?node-id=487-3134&t=OW7MYylTl6mCnYVP-1"
+            }
+          ]
         }
       ]
     },
@@ -109,7 +116,6 @@
           "id": 5,
           "name": "Aprendiendo"
         }
-
       ],
       "content": [
         {
@@ -188,7 +194,7 @@
           "id": 13,
           "area": "Aprendiendo",
           "skill": "Node",
-          "icon":"fa-brands fa-node-js"
+          "icon": "fa-brands fa-node-js"
         },
         {
           "id": 13,
@@ -221,8 +227,8 @@
               "id": "1",
               "title": "UI/UX Figma Essentials",
               "institution": "UDEMY",
-              "logo":"/images/estudios/udemy.png",
-              "year":"2024",
+              "logo": "/images/estudios/udemy.png",
+              "year": "2024",
               "link": "...."
             }
           ]
@@ -234,14 +240,14 @@
               "id": 1,
               "idiom": "Español",
               "detail": "Nativo",
-              "flag":"/images/languages/spanish.svg"
+              "flag": "/images/languages/spanish.svg"
             },
             {
               "id": 2,
               "idiom": "Ingles",
               "detail": "C2",
               "link": "....",
-              "flag":"/images/languages/english.svg"
+              "flag": "/images/languages/english.svg"
             }
           ]
         }
