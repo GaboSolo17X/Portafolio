@@ -22,7 +22,7 @@ export const SobreMi = () => {
   return (
     <>
       {/* Sección superior: Imagen y descripción */}
-      <section className="flex flex-col sm:flex-row gap-6 lg:gap-10">
+      <section className="flex flex-col sm:flex-row gap-6 items-center lg:gap-10">
         {/* Imagen de perfil */}
         <img
           src={about.profilePic}

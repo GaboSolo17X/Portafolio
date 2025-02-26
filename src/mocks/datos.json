@@ -327,7 +327,7 @@
             "id": "1",
             "name": "7Friends",
             "url": "/images/art/7Friends.png",
-            "css": "col-span-2"
+            "css": "md:col-span-2"
           },
           {
             "id": "2",
@@ -339,7 +339,7 @@
             "id": "3",
             "name": "TwoLifes",
             "url": "images/art/TwoLifes.jpg",
-            "css": "w-[714px] h-[714px]"
+            "css": "lg:w-[714px] lg:h-[714px]"
           }
         ],
         "toolsTitle": "PROGRAMAS PRINCIPALES",
