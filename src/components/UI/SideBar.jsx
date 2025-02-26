@@ -43,7 +43,7 @@ export const SideBar = () => {
 
 
   return (
-    <aside className="hidden md:flex flex-col items-center w-64 dark:text-primary">
+    <aside className="hidden lg:flex flex-col items-center w-64 dark:text-primary">
       <div
         className="fixed top-1/2 -translate-y-1/2 h-[580px] w-16
                   border-4 border-secondary rounded-full

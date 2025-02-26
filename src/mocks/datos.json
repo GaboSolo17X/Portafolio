@@ -26,6 +26,9 @@
         "github": "https://github.com/GaboSolo17X",
         "linkedin": "https://www.linkedin.com/in/gabriel-solorzano-79177823b/",
         "email": "Gabosolorzano17@gmail.com",
+        "resumeTitle":"Descargar CV",
+        "cvLink":"/docs/GabrielSolorzano-CV.pdf",
+        "resumeLink":"/docs/GabrielSolorzano-Resume.pdf",
         "aboutMeTitle": "SOBRE MI",
         "aboutMeText": "Soy una persona altamente comprometida con el aprendizaje continuo y el desarrollo personal y profesional. Cuando enfrento un tema o herramienta desconocida, invierto mi tiempo en investigarlo, practicarlo y buscar asesoría para dominarlo. Mi enfoque es siempre dar lo mejor de mí en cada proyecto, asegurándome de entregar resultados de alta calidad y aprendiendo de cada experiencia.",
         "prinTextTitle": "Tecnologias Principales",
@@ -60,7 +63,7 @@
           "id": "1",
           "company": "Banco Centroamericano de Integracion Economica",
           "job": "Analisis y gestion de calidad de datos",
-          "description": " ",
+          "description": "Lorem loremm sddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd sdfsfsdfsdfsdfsdfsdfsdfsdf ",
           "image": "/images/experiencia/bcie.png",
           "alt": "BCIE Logo",
           "date": "18/09/2024 - 05/02/2025"
@@ -72,7 +75,7 @@
       "categories": ["Frontend", "Backend", "UI/UX", "BI", "FullStack"],
       "content": [
         {
-          "id": "1",
+          "id": 1,
           "name": "PlanCo",
           "category": "UI/UX",
           "image": "/images/projects/travelApp.png",
@@ -88,6 +91,49 @@
             {
               "web": "Figma",
               "url": "https://www.figma.com/design/xHHV1d4exKHhRd5NJ8D2I2/Brief-To-Travel-Website?node-id=487-3134&t=OW7MYylTl6mCnYVP-1"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Registro UNAH",
+          "category": "Fullstack",
+          "image": "/images/projects/travelApp.png",
+          "description": "Proyecto universitario donde se recreo el sistema de registro de la UNAH. El sistema permitia hacer examen de admision, matricular clases, cancelar clases, ver notas y agregar conocidos como amigos y un chat. Mi rol: Scrummaster enfocado mas en las areas de Frontend y BD",
+          "tecs": [
+            {
+              "idTec": 1,
+              "tec": "Vue",
+              "icon": "fa-brands fa-vuejs"
+            },
+            {
+              "idTec": 2,
+              "tec": "Javascript",
+              "icon": "fa-brands fa-vuejs"
+            },
+            {
+              "idTec": 3,
+              "tec": "NodeJS",
+              "icon": "fa-brands fa-vuejs"
+            },
+            {
+              "idTec": 4,
+              "tec": "SQL Server",
+              "icon": "fa-brands fa-vuejs"
+            }
+          ],
+          "links": [
+            {
+              "web": "Figma",
+              "url": "https://www.figma.com/design/xHHV1d4exKHhRd5NJ8D2I2/Brief-To-Travel-Website?node-id=487-3134&t=OW7MYylTl6mCnYVP-1"
+            },
+            {
+              "web": "Frontend Code",
+              "url": "https://github.com/GaboSolo17X/Proyecto-Ingenieria-FrontEnd"
+            },
+            {
+              "web": "Backend Code",
+              "url": "https://github.com/GaboSolo17X/Proyecto-Ingenieria-BackEnd"
             }
           ]
         }
@@ -200,6 +246,12 @@
           "id": 13,
           "area": "Frontend",
           "skill": "Vue",
+          "icon": "fa-brands fa-vuejs"
+        },
+        {
+          "id": 14,
+          "area": "Herramientas",
+          "skill": "PowerAutomate",
           "icon": "fa-brands fa-vuejs"
         }
       ]
