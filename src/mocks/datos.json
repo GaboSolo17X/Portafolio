@@ -1,13 +1,37 @@
 {
   "ES": {
-    "sidebar": {
-      "about": "Sobre Mi",
-      "experience": "Experiencia",
-      "projects": "Proyectos",
-      "skills": "Habilidades",
-      "education": "Estudios",
-      "art": "Arte"
-    },
+    "sidebar": [
+      {
+        "title": "Sobre Mi",
+        "url": "",
+        "icon": "fa-solid fa-user"
+      },
+      {
+        "title": "Experiencia",
+        "url": "experiencia",
+        "icon": "fa-solid fa-briefcase"
+      },
+      {
+        "title": "Proyectos",
+        "url": "proyectos",
+        "icon": "fa-solid fa-folder"
+      },
+      {
+        "title": "Habilidades",
+        "url": "habilidades",
+        "icon": "fa-solid fa-laptop-code"
+      },
+      {
+        "title": "Estudios",
+        "url": "educacion",
+        "icon": "fa-solid fa-graduation-cap"
+      },
+      {
+        "title": "Arte",
+        "url": "arte",
+        "icon": "fa-solid fa-palette"
+      }
+    ],
     "about": {
       "title": "Sobre Mí",
       "content": {
@@ -17,18 +41,18 @@
             "phrase1": "Hola soy",
             "phrase2": "GABRIEL SOLORZANO",
             "phrase3": "Un ingeniero en sistemas que le gusta el",
-            "phrase4":" Desarrollo de Software",
-            "phrase5":" y el",
-            "phrase6":" Analisis de Datos"
+            "phrase4": " Desarrollo de Software",
+            "phrase5": " y el",
+            "phrase6": " Analisis de Datos"
           }
         ],
         "profilePic": "/images/pp.png",
         "github": "https://github.com/GaboSolo17X",
         "linkedin": "https://www.linkedin.com/in/gabriel-solorzano-79177823b/",
         "email": "Gabosolorzano17@gmail.com",
-        "resumeTitle":"Descargar CV",
-        "cvLink":"/docs/GabrielSolorzano-CV.pdf",
-        "resumeLink":"/docs/GabrielSolorzano-Resume.pdf",
+        "resumeTitle": "Descargar CV",
+        "cvLink": "/docs/GabrielSolorzano-CV.pdf",
+        "resumeLink": "/docs/GabrielSolorzano-Resume.pdf",
         "aboutMeTitle": "SOBRE MI",
         "aboutMeText": "Soy una persona altamente comprometida con el aprendizaje continuo y el desarrollo personal y profesional. Cuando enfrento un tema o herramienta desconocida, invierto mi tiempo en investigarlo, practicarlo y buscar asesoría para dominarlo. Mi enfoque es siempre dar lo mejor de mí en cada proyecto, asegurándome de entregar resultados de alta calidad y aprendiendo de cada experiencia.",
         "prinTextTitle": "Tecnologias Principales",
@@ -259,6 +283,12 @@
           "area": "Aprendiendo",
           "skill": "React",
           "icon": "fa-brands fa-react"
+        },
+        {
+          "id": 15,
+          "area": "Frontend",
+          "skill": "Tailwind CSS",
+          "icon": "fa-brands fa-css"
         }
       ]
     },
@@ -353,6 +383,406 @@
           {
             "id": "1",
             "tec": "Skecthbook Pro",
+            "icon": "/icons/sketchbook.svg"
+          },
+          {
+            "id": "2",
+            "tec": "Krita",
+            "icon": "/icons/krita.svg"
+          },
+          {
+            "id": "3",
+            "tec": "Canva",
+            "icon": "/icons/canva.svg"
+          }
+        ]
+      }
+    }
+  },
+  "EN": {
+    "sidebar": [
+      {
+        "title": "About Me",
+        "url": "",
+        "icon": "fa-solid fa-user"
+      },
+      {
+        "title": "Experience",
+        "url": "experiencia",
+        "icon": "fa-solid fa-briefcase"
+      },
+      {
+        "title": "Projects",
+        "url": "proyectos",
+        "icon": "fa-solid fa-folder"
+      },
+      {
+        "title": "Skills",
+        "url": "habilidades",
+        "icon": "fa-solid fa-laptop-code"
+      },
+      {
+        "title": "Education",
+        "url": "educacion",
+        "icon": "fa-solid fa-graduation-cap"
+      },
+      {
+        "title": "Art",
+        "url": "arte",
+        "icon": "fa-solid fa-palette"
+      }
+    ],
+    "about": {
+      "title": "About Me",
+      "content": {
+        "Presentation": "Presentation",
+        "description": [
+          {
+            "phrase1": "Hi, I'm",
+            "phrase2": "GABRIEL SOLORZANO",
+            "phrase3": "A systems engineer who enjoys",
+            "phrase4": "Software Development",
+            "phrase5": "and",
+            "phrase6": "Data Analysis"
+          }
+        ],
+        "profilePic": "/images/pp.png",
+        "github": "https://github.com/GaboSolo17X",
+        "linkedin": "https://www.linkedin.com/in/gabriel-solorzano-79177823b/",
+        "email": "Gabosolorzano17@gmail.com",
+        "resumeTitle": "Download CV",
+        "cvLink": "/docs/GabrielSolorzano-CV.pdf",
+        "resumeLink": "/docs/GabrielSolorzano-Resume.pdf",
+        "aboutMeTitle": "ABOUT ME",
+        "aboutMeText": "I am a highly committed individual to continuous learning and personal and professional development. When I face an unknown topic or tool, I invest my time in researching, practicing, and seeking advice to master it. My approach is always to give my best in every project, ensuring high-quality results and learning from every experience.",
+        "prinTextTitle": "Main Technologies",
+        "tecs": [
+          {
+            "id": "1",
+            "tec": "HTML",
+            "icon": "fa-brands fa-html5"
+          },
+          {
+            "id": "2",
+            "tec": "CSS",
+            "icon": "fa-brands fa-css3-alt"
+          },
+          {
+            "id": "3",
+            "tec": "Javascript",
+            "icon": "fa-brands fa-js"
+          },
+          {
+            "id": "4",
+            "tec": "SQL Server",
+            "icon": "fa-solid fa-database"
+          }
+        ]
+      }
+    },
+    "experience": {
+      "title": "Experience",
+      "content": [
+        {
+          "id": "1",
+          "company": "Central American Bank for Economic Integration",
+          "job": "Data Quality Analysis and Management",
+          "description": "My duties in the Country and Project Management area were focused on business intelligence, which can be summarized as follows: \n1. I implemented improvements to the data sources of various dashboards, enabling reports to be generated in less time. This resulted in a 90% reduction in response times. \n2. I documented the solutions built and created user manuals. \n3. I designed and implemented visual and usability improvements in both existing and new solutions.",
+          "image": "/images/experiencia/bcie.png",
+          "alt": "BCIE Logo",
+          "date": "09/18/2024 - 02/05/2025"
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "categories": ["Frontend", "Backend", "UI/UX", "BI", "Fullstack"],
+      "content": [
+        {
+          "id": 1,
+          "name": "PlanCo",
+          "category": "UI/UX",
+          "image": "/images/projects/travelApp.webp",
+          "description": "Project to practice UI/UX skills.",
+          "tecs": [
+            {
+              "idTec": "1",
+              "tec": "Figma",
+              "icon": "fa-brands fa-figma"
+            }
+          ],
+          "links": [
+            {
+              "web": "Figma",
+              "url": "https://www.figma.com/design/xHHV1d4exKHhRd5NJ8D2I2/Brief-To-Travel-Website?node-id=487-3134&t=OW7MYylTl6mCnYVP-1"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "UNAH Registration",
+          "category": "Fullstack",
+          "image": "/images/projects/registroUNAH.webp",
+          "description": "University project where the UNAH registration system was recreated. The system allowed taking an admission exam, enrolling in classes, dropping classes, viewing grades, and adding friends with a chat feature. My role: Scrum Master, focused more on Frontend and Database areas.",
+          "tecs": [
+            {
+              "idTec": 1,
+              "tec": "Vue",
+              "icon": "fa-brands fa-vuejs"
+            },
+            {
+              "idTec": 2,
+              "tec": "Javascript",
+              "icon": "fa-brands fa-js"
+            },
+            {
+              "idTec": 3,
+              "tec": "NodeJS",
+              "icon": "fa-brands fa-node-js"
+            },
+            {
+              "idTec": 4,
+              "tec": "SQL Server",
+              "icon": "fa-solid fa-database"
+            }
+          ],
+          "links": [
+            {
+              "web": "Figma",
+              "url": "https://www.figma.com/design/xHHV1d4exKHhRd5NJ8D2I2/Brief-To-Travel-Website?node-id=487-3134&t=OW7MYylTl6mCnYVP-1"
+            },
+            {
+              "web": "Frontend Code",
+              "url": "https://github.com/GaboSolo17X/Proyecto-Ingenieria-FrontEnd"
+            },
+            {
+              "web": "Backend Code",
+              "url": "https://github.com/GaboSolo17X/Proyecto-Ingenieria-BackEnd"
+            }
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "title": "Skills",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Frontend"
+        },
+        {
+          "id": 2,
+          "name": "Backend"
+        },
+        {
+          "id": 3,
+          "name": "Tools"
+        },
+        {
+          "id": 4,
+          "name": "BI"
+        },
+        {
+          "id": 5,
+          "name": "Learning"
+        }
+      ],
+      "content": [
+        {
+          "id": 1,
+          "area": "Frontend",
+          "skill": "HTML",
+          "icon": "fa-brands fa-html5"
+        },
+        {
+          "id": 2,
+          "area": "Frontend",
+          "skill": "CSS",
+          "icon": "fa-brands fa-css3-alt"
+        },
+        {
+          "id": 3,
+          "area": "Frontend",
+          "skill": "Javascript",
+          "icon": "fa-brands fa-js"
+        },
+        {
+          "id": 4,
+          "area": "Tools",
+          "skill": "Postman",
+          "icon": "fa-solid fa-rocket"
+        },
+        {
+          "id": 5,
+          "area": "Tools",
+          "skill": "Figma",
+          "icon": "fa-brands fa-figma"
+        },
+        {
+          "id": 6,
+          "area": "Tools",
+          "skill": "VS Code",
+          "icon": "fa-solid fa-terminal"
+        },
+        {
+          "id": 7,
+          "area": "Tools",
+          "skill": "Github",
+          "icon": "fa-brands fa-github"
+        },
+        {
+          "id": 8,
+          "area": "BI",
+          "skill": "Tableau",
+          "icon": "fa-solid fa-chart-column"
+        },
+        {
+          "id": 9,
+          "area": "BI",
+          "skill": "SQL Server",
+          "icon": "fa-solid fa-database"
+        },
+        {
+          "id": 10,
+          "area": "Frontend",
+          "skill": "Bootstrap",
+          "icon": "fa-brands fa-bootstrap"
+        },
+        {
+          "id": 11,
+          "area": "Learning",
+          "skill": "UI Guide",
+          "icon": "fa-solid fa-layer-group"
+        },
+        {
+          "id": 12,
+          "area": "Learning",
+          "skill": "Mongo DB",
+          "icon": "fa-brands fa-envira"
+        },
+        {
+          "id": 13,
+          "area": "Learning",
+          "skill": "Node",
+          "icon": "fa-brands fa-node-js"
+        },
+        {
+          "id": 13,
+          "area": "Frontend",
+          "skill": "Vue",
+          "icon": "fa-brands fa-vuejs"
+        },
+        {
+          "id": 14,
+          "area": "Tools",
+          "skill": "Power Automate",
+          "icon": "fa-solid fa-chart-diagram"
+        },
+        {
+          "id": 14,
+          "area": "Learning",
+          "skill": "React",
+          "icon": "fa-brands fa-react"
+        },
+        {
+          "id": 15,
+          "area": "Frontend",
+          "skill": "Tailwind CSS",
+          "icon": "fa-brands fa-css"
+        }
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "content": [
+        {
+          "category": "Degree",
+          "info": [
+            {
+              "id": "1",
+              "degree": "Systems Engineering",
+              "institution": "National Autonomous University of Honduras",
+              "year": "2020 - 2025",
+              "status": "Pending graduation",
+              "logo": "/images/estudios/UNAH.png"
+            }
+          ]
+        },
+        {
+          "category": "Certificates",
+          "info": [
+            {
+              "id": "1",
+              "title": "UI/UX Figma Essentials",
+              "institution": "UDEMY",
+              "logo": "/images/estudios/udemy.png",
+              "year": "2024",
+              "link": "...."
+            }
+          ]
+        },
+        {
+          "category": "Languages",
+          "info": [
+            {
+              "id": 1,
+              "idiom": "Spanish",
+              "detail": "Native",
+              "flag": "/images/languages/spanish.svg"
+            },
+            {
+              "id": 2,
+              "idiom": "English",
+              "detail": "C2",
+              "link": "....",
+              "flag": "/images/languages/english.svg"
+            }
+          ]
+        }
+      ]
+    },
+    "art": {
+      "title": "Art",
+      "content": {
+        "Presentation": "Presentation",
+        "description": [
+          {
+            "phrase1": "Hi, I'm",
+            "phrase2": "G4BZ.ART",
+            "phrase3": "In addition to my academic studies, I also enjoy practicing my favorite hobby, drawing, which I have been uploading content on my social media for 2 years."
+          }
+        ],
+        "profilePic": "/images/art/Alost.webp",
+        "behance": "https://www.behance.net/G4BZ",
+        "instagram": "https://www.instagram.com/g4bz.draw/?hl=es-la",
+        "email": "Gabotoons17@gmail.com",
+        "ilustrationTitle": "ILLUSTRATIONS",
+        "ilustrationText": "To see other illustrations, check out my Instagram or Behance. I enjoy creating illustrations where my characters are in a situation and tell a story.",
+        "ilustrations": [
+          {
+            "id": "1",
+            "name": "7Friends",
+            "url": "/images/art/7Friends.webp",
+            "css": "md:col-span-2"
+          },
+          {
+            "id": "2",
+            "name": "Fantasy",
+            "url": "/images/art/FantasyR.webp",
+            "css": ""
+          },
+          {
+            "id": "3",
+            "name": "TwoLifes",
+            "url": "images/art/TwoLifes.webp",
+            "css": "lg:w-[714px] lg:h-[714px]"
+          }
+        ],
+        "toolsTitle": "MAIN TOOLS",
+        "tools": [
+          {
+            "id": "1",
+            "tec": "Sketchbook Pro",
             "icon": "/icons/sketchbook.svg"
           },
           {

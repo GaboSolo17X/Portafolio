@@ -24,7 +24,7 @@
 
 .sideBarIcon{
   @apply relative flex items-center justify-center
-  h-10 w-10 mt-1 mb-1 mx-auto rounded-lg
+  h-10 w-10 lg:h-12 lg:w-12 mt-1 mb-1 mx-auto rounded-lg
   transition-transform duration-200 ease-in-out 
   hover:bg-salmon hover:text-primary hover:scale-110
 
@@ -34,16 +34,16 @@
 
 .sideBarIconArt{
   @apply relative flex items-center justify-center
-  h-10 w-10 mt-1 mb-1 mx-auto rounded-lg
+  h-10 w-10 lg:h-12 lg:w-12 mt-1 mb-1 mx-auto rounded-lg
   transition-transform duration-200 ease-in-out 
   hover:bg-gradient-to-r from-artPink to-artBlue hover:text-primary hover:scale-110
   
 }
 
 .tooltip{
-  @apply absolute w-auto p-2 -m-4 min-w-max left-20 rounded-md
-  text-primary bg-secondary dark:bg-primary dark:text-secondary
-  text-xs font-bold
+  @apply absolute w-auto p-2 -m-4 min-w-max left-28  lg:left-24 rounded-md text-secondary
+  lg:text-primary bg-primary lg:bg-secondary lg:dark:bg-primary  dark:text-secondary
+  text-lg font-bold
   transition-all duration-100  origin-left
  
 }
@@ -83,15 +83,23 @@
 .linkActivo{
   @apply  bg-salmon text-primary scale-110
   relative flex items-center justify-center
-  h-10 w-10 mt-1 mb-1 mx-auto rounded-lg
+  h-10 w-10 lg:h-12 lg:w-12 mt-1 mb-1 mx-auto rounded-lg 
   transition-transform duration-200 ease-in-out 
+}
+.linkActivo .tooltip{
+  @apply bg-salmon text-primary
 }
 
 .linkActivoArte{
   @apply  bg-gradient-to-r from-artPink to-artBlue text-primary scale-110
   relative flex items-center justify-center
-  h-10 w-10 mt-1 mb-1 mx-auto rounded-lg
+  h-10 w-10 lg:h-12 lg:w-12 mt-1 mb-1 mx-auto rounded-lg
   transition-transform duration-200 ease-in-out 
+}
+
+
+.linkActivoArte .tooltip{
+  @apply bg-gradient-to-r from-artPink to-artBlue text-primary
 }
 
 .activeFilter{
