@@ -29,6 +29,7 @@ export const Arte = () => {
             <img
               src={art.profilePic}
               alt="Mi foto"
+              loading="lazy"
               className="border-4 border-secondary rounded-2xl shadow-retro 
                    dark:border-primary dark:shadow-retroDark w-36  sm:w-[200px] sm:h-[200px] lg:w-[400px] lg:h-auto"
             />
@@ -46,7 +47,7 @@ export const Arte = () => {
                   <div key={index}>
                     <p>
                       {datos.phrase1} <br />
-                      <span className="font-title text-4xl lg:text-9xl text-salmon  bg-gradient-to-r from-artPink to-artBlue text-transparent bg-clip-text">
+                      <span className="font-title text-4xl lg:text-9xl bg-gradient-to-r from-artPink to-artBlue text-transparent bg-clip-text">
                         {datos.phrase2}
                       </span>
                     </p>
@@ -98,6 +99,7 @@ export const Arte = () => {
               <img
                 src={datos.url}
                 alt={datos.name}
+                loading="lazy"
                 className={`border-4 ${datos.css} border-secondary rounded-2xl shadow-retro 
                   dark:border-primary dark:shadow-retroDark w-full`}
                 key={datos.id}
@@ -116,7 +118,7 @@ export const Arte = () => {
                   className="flex  gap-2 justify-center items-center bg-secondary text-primary px-6 py-2 mr-2 rounded-full   
                          dark:bg-primary dark:text-secondary"
                 >
-                  <img src={datos.icon} alt={datos.tec} className="w-9 h-9" />
+                  <img src={datos.icon} alt={datos.tec} className="w-9 h-9" loading="lazy"/>
                   <span>{datos.tec}</span>
                 </li>
               ))}

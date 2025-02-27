@@ -1,22 +1,44 @@
 import { Routes, Route } from "react-router";
-import { SobreMi } from "../components/sections/SobreMi";
-import { Experiencia } from "../components/sections/Experiencia";
-import { Proyectos } from "../components/sections/Proyectos";
-import { Habilidades } from "../components/sections/Habilidades";
-import { Estudios } from "../components/sections/Estudios";
-import { Arte } from "../components/sections/Arte";
 import { PortfolioApp } from "../assets/portfolioApp";
+import { lazy } from "react";
+
+
+const SobreMi = lazy(() => import ("../components/sections/SobreMi").then(module=>{
+  return {default:module.SobreMi}
+}))
+const Experiencia = lazy(() => import ("../components/sections/Experiencia").then(module=>{
+  return {default:module.Experiencia}
+}))
+const Habilidades = lazy(() => import ("../components/sections/Habilidades").then(module=>{
+  return {default:module.Habilidades}
+}))
+const Proyectos = lazy(() => import ("../components/sections/Proyectos").then(module=>{
+  return {default:module.Proyectos}
+}))
+const Estudios = lazy(() => import ("../components/sections/Estudios").then(module=>{
+  return {default:module.Estudios}
+}))
+const Arte = lazy(() => import ("../components/sections/Arte").then(module=>{
+  return {default:module.Arte}
+}))
+// const PortfolioApp = lazy(() => import ("../assets/portfolioApp"))
+
+
+
 
 export const PortfolioRoutes = () => {
   return (
-        <Routes>
-            <Route path="/" element={<PortfolioApp/>}/>
-            <Route path="/sobre-mi" element={<SobreMi/>}/>
-            <Route path="/experiencia" element={<Experiencia/>}/>
-            <Route path="/proyectos" element={<Proyectos/>}/>
-            <Route path="/habilidades" element={<Habilidades/>}/>
-            <Route path="/educacion" element={<Estudios/>}/>
-            <Route path="/arte" element={<Arte/>}/>
-        </Routes>
-  )
-}
+    
+    <Routes>
+      <Route path="/" element={<PortfolioApp />}>
+        <Route index element={<SobreMi />} /> {/* Página por defecto */}
+        <Route path="experiencia" element={<Experiencia />} />
+        <Route path="proyectos" element={<Proyectos />} />
+        <Route path="habilidades" element={<Habilidades />} />
+        <Route path="educacion" element={<Estudios />} />
+        <Route path="arte" element={<Arte />} />
+      </Route>
+    </Routes>
+    
+  );
+};

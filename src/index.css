@@ -94,4 +94,6 @@
   transition-transform duration-200 ease-in-out 
 }
 
-
+.activeFilter{
+  @apply bg-salmon text-primary
+}

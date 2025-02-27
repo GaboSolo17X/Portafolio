@@ -37,6 +37,7 @@ export const Experiencia = () => {
                 <img
                   src={datos.image}
                   alt={datos.alt}
+                  loading="lazy"
                   className="border-4  border-secondary rounded-2xl w-20 h-20 mx-auto md:w-[82px] md:h-[82px] md:mx-0 md:mr-3 "
                 />
                 <div className="flex flex-col justify-center text-center md:text-left mt-4 md:mt-0 ">
@@ -47,7 +48,7 @@ export const Experiencia = () => {
 
                {/* Descripción */}
               <section className="p-4 md:p-6">
-                <p className="break-words whitespace-normal">
+                <p className="break-words whitespace-pre-line">
                   {datos.description}
                 </p>
               </section>

@@ -27,6 +27,7 @@ export const SobreMi = () => {
         <img
           src={about.profilePic}
           alt="Mi foto"
+          loading="lazy"
           className="border-4  border-secondary rounded-2xl shadow-retro 
                    dark:border-primary dark:shadow-retroDark w-36  sm:w-[200px] sm:h-[200px] lg:w-[400px] lg:h-auto"
         />

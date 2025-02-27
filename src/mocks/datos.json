@@ -51,7 +51,7 @@
           {
             "id": "4",
             "tec": "SQL Server",
-            "icon": "fa-"
+            "icon": "fa-solid fa-database"
           }
         ]
       }
@@ -63,7 +63,7 @@
           "id": "1",
           "company": "Banco Centroamericano de Integracion Economica",
           "job": "Analisis y gestion de calidad de datos",
-          "description": "Lorem loremm sddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd sdfsfsdfsdfsdfsdfsdfsdfsdf ",
+          "description": "Mis labores en el area de Gerencia de Paises y Proyectos fueron enfocadas mas a la inteligencia de negociones las cuales se resumen en: \n1. Implementé mejoras a las fuentes de datos de distintos tableros que habilitaron los informes en un menor tiempo. Con ello se lograron tiempos de respuesta reducidos en un 90%. \n2. Documenté las soluciones construidas y generé manuales para el usuario. \n3. Diseñé e implementé mejoras visuales y de usabilidad en soluciones tanto existentes como nuevas.",
           "image": "/images/experiencia/bcie.png",
           "alt": "BCIE Logo",
           "date": "18/09/2024 - 05/02/2025"
@@ -72,13 +72,13 @@
     },
     "projects": {
       "title": "Proyectos",
-      "categories": ["Frontend", "Backend", "UI/UX", "BI", "FullStack"],
+      "categories": ["Frontend", "Backend", "UI/UX", "BI", "Fullstack"],
       "content": [
         {
           "id": 1,
           "name": "PlanCo",
           "category": "UI/UX",
-          "image": "/images/projects/travelApp.png",
+          "image": "/images/projects/travelApp.webp",
           "description": "Proyecto para poder practicar las habilidades de UI/UX.",
           "tecs": [
             {
@@ -98,7 +98,7 @@
           "id": 2,
           "name": "Registro UNAH",
           "category": "Fullstack",
-          "image": "/images/projects/travelApp.png",
+          "image": "/images/projects/registroUNAH.webp",
           "description": "Proyecto universitario donde se recreo el sistema de registro de la UNAH. El sistema permitia hacer examen de admision, matricular clases, cancelar clases, ver notas y agregar conocidos como amigos y un chat. Mi rol: Scrummaster enfocado mas en las areas de Frontend y BD",
           "tecs": [
             {
@@ -109,17 +109,17 @@
             {
               "idTec": 2,
               "tec": "Javascript",
-              "icon": "fa-brands fa-vuejs"
+              "icon": "fa-brands fa-js"
             },
             {
               "idTec": 3,
               "tec": "NodeJS",
-              "icon": "fa-brands fa-vuejs"
+              "icon": "fa-brands fa-node-js"
             },
             {
               "idTec": 4,
               "tec": "SQL Server",
-              "icon": "fa-brands fa-vuejs"
+              "icon": "fa-solid fa-database"
             }
           ],
           "links": [
@@ -186,7 +186,7 @@
           "id": 4,
           "area": "Herramientas",
           "skill": "Postman",
-          "icon": " "
+          "icon": "fa-solid fa-rocket"
         },
         {
           "id": 5,
@@ -198,7 +198,7 @@
           "id": 6,
           "area": "Herramientas",
           "skill": "VS Code",
-          "icon": " "
+          "icon": "fa-solid fa-terminal"
         },
         {
           "id": 7,
@@ -210,13 +210,13 @@
           "id": 8,
           "area": "BI",
           "skill": "Tableau",
-          "icon": " "
+          "icon": "fa-solid fa-chart-column"
         },
         {
           "id": 9,
           "area": "BI",
           "skill": "SQL Server",
-          "icon": " "
+          "icon": "fa-solid fa-database"
         },
         {
           "id": 10,
@@ -228,13 +228,13 @@
           "id": 11,
           "area": "Aprendiendo",
           "skill": "UI Guide",
-          "icon": " "
+          "icon": "fa-solid fa-layer-group"
         },
         {
           "id": 12,
           "area": "Aprendiendo",
           "skill": "Mongo DB",
-          "icon": " "
+          "icon": "fa-brands fa-envira"
         },
         {
           "id": 13,
@@ -251,8 +251,14 @@
         {
           "id": 14,
           "area": "Herramientas",
-          "skill": "PowerAutomate",
-          "icon": "fa-brands fa-vuejs"
+          "skill": "Power Automate",
+          "icon": "fa-solid fa-chart-diagram"
+        },
+        {
+          "id": 14,
+          "area": "Aprendiendo",
+          "skill": "React",
+          "icon": "fa-brands fa-react"
         }
       ]
     },
@@ -316,7 +322,7 @@
             "phrase3": "Ademas de mis estudios academicos tambien disfruto practicar mi hobby favorito dibujar el cual tengo ya 2 años subiendo contenido en mis redes."
           }
         ],
-        "profilePic": "/images/art/Alost.png",
+        "profilePic": "/images/art/Alost.webp",
         "behance": "https://www.behance.net/G4BZ",
         "instagram": "https://www.instagram.com/g4bz.draw/?hl=es-la",
         "email": "Gabotoons17@gmail.com",
@@ -326,19 +332,19 @@
           {
             "id": "1",
             "name": "7Friends",
-            "url": "/images/art/7Friends.png",
+            "url": "/images/art/7Friends.webp",
             "css": "md:col-span-2"
           },
           {
             "id": "2",
             "name": "Fantasy",
-            "url": "/images/art/FantasyR.png",
+            "url": "/images/art/FantasyR.webp",
             "css": ""
           },
           {
             "id": "3",
             "name": "TwoLifes",
-            "url": "images/art/TwoLifes.jpg",
+            "url": "images/art/TwoLifes.webp",
             "css": "lg:w-[714px] lg:h-[714px]"
           }
         ],

@@ -52,7 +52,7 @@ export const SideBar = () => {
       >
         <section className="flex flex-col flex-wrap items-center h-[400px] place-content-evenly">
           <NavLink
-            to={"/sobre-mi"}
+            to={""}
             className={({ isActive }) => (isActive ? "linkActivo" : "")}
             onClick={()=>setSelectedTitle(idiom.about)}
           >
@@ -66,7 +66,7 @@ export const SideBar = () => {
           </NavLink>
 
           <NavLink
-            to={"/experiencia"}
+            to={"experiencia"}
             className={({ isActive }) => (isActive ? "linkActivo" : "")}
             onClick={()=>setSelectedTitle("Experiencia")}
           >
@@ -78,7 +78,7 @@ export const SideBar = () => {
           </NavLink>
 
           <NavLink
-            to={"/proyectos"}
+            to={"proyectos"}
             className={({ isActive }) => (isActive ? "linkActivo" : "")}
             onClick={()=>setSelectedTitle("Proyectos")}
           >
@@ -90,7 +90,7 @@ export const SideBar = () => {
           </NavLink>
 
           <NavLink
-            to={"/habilidades"}
+            to={"habilidades"}
             className={({ isActive }) => (isActive ? "linkActivo" : "")}
             onClick={()=>setSelectedTitle("Habilidades")}
           >
@@ -102,7 +102,7 @@ export const SideBar = () => {
           </NavLink>
 
           <NavLink
-            to={"/educacion"}
+            to={"educacion"}
             className={({ isActive }) => (isActive ? "linkActivo" : "")}
             onClick={()=>setSelectedTitle("Educacion")}
           >
@@ -114,7 +114,7 @@ export const SideBar = () => {
           </NavLink>
 
           <NavLink
-            to={"/arte"}
+            to={"arte"}
             className={({ isActive }) => (isActive ? "linkActivoArte" : "")}
             onClick={()=>setSelectedTitle("Arte")}
           >
@@ -127,7 +127,7 @@ export const SideBar = () => {
         </section>
 
         <section className="flex flex-col items-center mt-6">
-          <img src={selectedLanguage==='ES'?español:ingles} alt="Spain Flag" className="mb-1 w-9" />
+          <img src={selectedLanguage==='ES'?español:ingles} alt="Spain Flag" loading="lazy" className="mb-1 w-9" />
           <Toggle type="language" />
 
           <i className={`fa-solid ${selectedTheme==="light"?"fa-solid fa-sun":"fa-solid fa-moon"} fa-xl mt-5 mb-4`}></i>

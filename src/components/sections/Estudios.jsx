@@ -39,6 +39,7 @@ export const Estudios = () => {
                 <img
                   src={datos.logo}
                   alt={datos.institution}
+                  loading="lazy"
                   className="border-4  border-secondary rounded-2xl w-20 h-20 mx-auto md:w-[82px] md:h-[82px] md:mx-0 md:mr-3 "
                 />
                 <div className="flex flex-col justify-center  text-center md:text-left mt-4 md:mt-0 
@@ -46,17 +47,17 @@ export const Estudios = () => {
                   <h1 className="text-xl md:text-2xl font-bold">
                     {datos.degree}
                   </h1>
-                  <span className="text-lg md:text-xl">
+                  <span className="text-lg md:text-xl mb-2">
                     {datos.institution}
                   </span>
 
-                  <div className="flex items-center md:hidden h-14  mt-auto bg-secondary text-primary px-4 py-2 rounded-full dark:bg-primary">
+                  <div className="inline-block  md:hidden mt-auto text-lg bg-secondary text-primary px-4 py-2 rounded-full dark:bg-primary">
                     {datos.status}
                   </div>
                 </div>
 
                 {/* Estado */}
-                <div className="hidden md:inline-block h-14 ml-auto mt-auto bg-secondary text-primary px-4 py-2 rounded-full dark:bg-primary">
+                <div className="hidden md:inline-block  ml-auto mt-auto text-lg  bg-secondary text-primary px-4 py-2 rounded-full dark:bg-primary">
                   {datos.status}
                 </div>
               </section>
@@ -95,6 +96,7 @@ export const Estudios = () => {
                 <img
                   src={datos.logo}
                   alt={datos.institution}
+                  loading="lazy"
                   className="border-4  border-secondary rounded-2xl w-20 h-20 mx-auto md:w-[82px] md:h-[82px] md:mx-0 md:mr-3 "
                 />
                 <div className="flex flex-col justify-center  text-center md:text-left mt-4 md:mt-0">
@@ -130,10 +132,11 @@ export const Estudios = () => {
                 <img
                   src={datos.flag}
                   alt={datos.idiom}
+                  loading="lazy"
                   className="border-4  border-secondary rounded-2xl w-20 h-20 mx-auto md:w-[82px] md:h-[82px] md:mx-0 md:mr-3 "
                 />
-                <div className="flex flex-col justify-center items-center text-center md:text-left mt-4 md:mt-0 ">
-                  <h1 className="text-xl md:text-2xl md:text-left font-bold">
+                <div className="flex flex-col justify-center items-center text-center md:items-start mt-4 md:mt-0 ">
+                  <h1 className="text-xl md:text-2xl  font-bold">
                     {datos.idiom}
                   </h1>
                   <span className="text-lg md:text-xl">{datos.detail}</span>
