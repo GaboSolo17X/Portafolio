@@ -2,7 +2,6 @@ import { Routes, Route} from "react-router";
 import { PortfolioApp } from "../assets/portfolioApp";
 import { lazy } from "react";
 
-
 const SobreMi = lazy(() => import ("../components/sections/SobreMi").then(module=>{
   return {default:module.SobreMi}
 }))
@@ -21,14 +20,12 @@ const Estudios = lazy(() => import ("../components/sections/Estudios").then(modu
 const Arte = lazy(() => import ("../components/sections/Arte").then(module=>{
   return {default:module.Arte}
 }))
-
-
-
+const NoPage = lazy(() => import ("../components/sections/NoPage").then(module=>{
+  return {default:module.NoPage}
+}))
 
 
 export const PortfolioRoutes = () => {
-
-
   return (
     
     
@@ -40,6 +37,7 @@ export const PortfolioRoutes = () => {
           <Route path="habilidades" element={<Habilidades />} />
           <Route path="educacion" element={<Estudios />} />
           <Route path="arte" element={<Arte />} />
+          <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
  

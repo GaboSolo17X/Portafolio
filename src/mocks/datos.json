@@ -119,7 +119,7 @@
           "links": [
             {
               "web": "Figma",
-              "url": "https://www.figma.com/design/xHHV1d4exKHhRd5NJ8D2I2/Brief-To-Travel-Website?node-id=487-3134&t=OW7MYylTl6mCnYVP-1"
+              "url": "https://www.figma.com/design/FxFtGsvRI0SOMIBO76sLpB/My-Portfolio?node-id=0-1&t=0sUHcQIiLXF0Gs3X-1"
             }
           ]
         },
@@ -148,7 +148,7 @@
           "name": "Registro UNAH",
           "category": "Fullstack",
           "image": "/images/projects/registroUNAH.webp",
-          "description": "Proyecto universitario grupal donde se recreo el sistema de registro de la UNAH. El sistema permitia hacer examen de admision, matricular clases, ver notas y un chat. \nMi rol: Scrum Master enfocado mas en las areas de Frontend y Bases de Datos. Uno de los retos fue organizar los requerimientos y visualizar la ruta critica en cada sprint.",
+          "description": "Proyecto universitario grupal donde se recreo el sistema de registro de la UNAH. El sistema permitia hacer examen de admision, matricular clases, ver notas y un chat. Mi rol: Scrum Master enfocado mas en las areas de Frontend y Bases de Datos. Uno de los retos fue organizar los requerimientos y visualizar la ruta critica en cada sprint.",
           "tecs": [
             {
               "idTec": 1,
@@ -226,7 +226,7 @@
           "name": "Proyecto Practica Profesional",
           "category": "BI",
           "image": "/images/projects/bcie.webp",
-          "description": "Proyecto de mi practica profesional donde ajuste los queries que conformaban el tablero, mejorando el tiempo de carga en un 90% y algunos cambios en la UI del mismo. Mayor reto analizar y entender como funcionaba el tablero.",
+          "description": "Proyecto de mi practica profesional donde ajuste los queries que conformaban el tablero, mejorando el tiempo de carga en un 90% y algunos cambios en la UI del mismo. Mayor reto analizar y entender como funcionaba el tablero.\nContacto: Ing.Nelson Diaz, Telefono:+504 9994-0403",
           "tecs": [
             {
               "idTec": 1,
@@ -612,7 +612,7 @@
           "links": [
             {
               "web": "Figma",
-              "url": "https://www.figma.com/design/xHHV1d4exKHhRd5NJ8D2I2/Brief-To-Travel-Website?node-id=487-3134&t=OW7MYylTl6mCnYVP-1"
+              "url": "https://www.figma.com/design/FxFtGsvRI0SOMIBO76sLpB/My-Portfolio?node-id=0-1&t=0sUHcQIiLXF0Gs3X-1"
             }
           ]
         },
@@ -641,7 +641,7 @@
           "name": "UNAH Registration System",
           "category": "Fullstack",
           "image": "/images/projects/registroUNAH.webp",
-          "description": "A university group project where we recreated the UNAH registration system. The system allowed users to take an admission exam, enroll in classes, view grades, and use a chat feature.\nMy role: Scrum Master, primarily focused on Frontend and Database. One of the challenges was organizing the requirements and visualizing the critical path in each sprint.",
+          "description": "A university group project where we recreated the UNAH registration system. The system allowed users to take an admission exam, enroll in classes, view grades, and use a chat feature. My role: Scrum Master, primarily focused on Frontend and Database. One of the challenges was organizing the requirements and visualizing the critical path in each sprint.",
           "tecs": [
             {
               "idTec": 1,
@@ -719,7 +719,7 @@
           "name": "Internship Project",
           "category": "BI",
           "image": "/images/projects/bcie.webp",
-          "description": "A project from my internship where I optimized the queries used in the dashboard, improving loading times by 90% and making some UI changes. The biggest challenge was analyzing and understanding how the dashboard worked.",
+          "description": "A project from my internship where I optimized the queries used in the dashboard, improving loading times by 90% and making some UI changes. The biggest challenge was analyzing and understanding how the dashboard worked.\nContact: Ing.Nelson Diaz, Phone:+504 9994-0403",
           "tecs": [
             {
               "idTec": 1,

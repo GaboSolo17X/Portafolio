@@ -127,7 +127,7 @@ export const Proyectos = () => {
                         </div>
 
                         {/* Descripción del proyecto */}
-                        <p className="hidden xl:flex max-h-[80%] lg: p-4 text-xl lg:text-xs lg:h-[100px] lg:pt-2">
+                        <p className="hidden xl:flex max-h-[80%] lg: p-4 text-xl lg:text-xs lg:h-[100px] lg:pt-2 break-words whitespace-pre-line">
                           {datos.description}
                         </p>
 
