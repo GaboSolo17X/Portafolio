@@ -6,10 +6,7 @@ import { motion } from "framer-motion";
 export const Habilidades = () => {
   const { selectedLanguage } = useContext(LanguageContext);
   const skills = datos[selectedLanguage].skills;
-  console.log(skills);
 
-  const filters = skills.content.filter((datos) => datos.area === "Frontend");
-  console.log(filters);
 
   return (
     <>

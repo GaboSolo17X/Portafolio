@@ -8,8 +8,6 @@ export const LanguageProvider = ({ children }) => {
     const [selectedLanguage, setSelectedLanguage,] = useState('ES');
    
 
-    
-  
     return (
       <LanguageContext.Provider value={{ selectedLanguage, setSelectedLanguage }}>
         {children}
