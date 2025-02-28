@@ -55,7 +55,7 @@
         "resumeLink": "/docs/GabrielSolorzano-Resume.pdf",
         "aboutMeTitle": "SOBRE MI",
         "aboutMeText": "Soy una persona altamente comprometida con el aprendizaje continuo y el desarrollo personal y profesional. Cuando enfrento un tema o herramienta desconocida, invierto mi tiempo en investigarlo, practicarlo y buscar asesoría para dominarlo. Mi enfoque es siempre dar lo mejor de mí en cada proyecto, asegurándome de entregar resultados de alta calidad y aprendiendo de cada experiencia.",
-        "prinTextTitle": "Tecnologias Principales",
+        "prinTextTitle": "TECNOLOGIAS PRINCIPALES",
         "tecs": [
           {
             "id": "1",
@@ -158,6 +158,26 @@
             {
               "web": "Backend Code",
               "url": "https://github.com/GaboSolo17X/Proyecto-Ingenieria-BackEnd"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "PlanCo",
+          "category": "UI/UX",
+          "image": "/images/projects/travelApp.webp",
+          "description": "Proyecto para poder practicar las habilidades de UI/UX.",
+          "tecs": [
+            {
+              "idTec": "1",
+              "tec": "Figma",
+              "icon": "fa-brands fa-figma"
+            }
+          ],
+          "links": [
+            {
+              "web": "Figma",
+              "url": "https://www.figma.com/design/xHHV1d4exKHhRd5NJ8D2I2/Brief-To-Travel-Website?node-id=487-3134&t=OW7MYylTl6mCnYVP-1"
             }
           ]
         }
@@ -309,7 +329,7 @@
           ]
         },
         {
-          "category": "Certificados",
+          "category": "CERTIFICADOS",
           "info": [
             {
               "id": "1",
@@ -322,7 +342,7 @@
           ]
         },
         {
-          "category": "Idiomas",
+          "category": "IDIOMAS",
           "info": [
             {
               "id": 1,
@@ -375,7 +395,7 @@
             "id": "3",
             "name": "TwoLifes",
             "url": "images/art/TwoLifes.webp",
-            "css": "lg:w-[714px] lg:h-[714px]"
+            "css": "lg:w-[510px] lg:h-[510px]"
           }
         ],
         "toolsTitle": "PROGRAMAS PRINCIPALES",
@@ -455,7 +475,7 @@
         "resumeLink": "/docs/GabrielSolorzano-Resume.pdf",
         "aboutMeTitle": "ABOUT ME",
         "aboutMeText": "I am a highly committed individual to continuous learning and personal and professional development. When I face an unknown topic or tool, I invest my time in researching, practicing, and seeking advice to master it. My approach is always to give my best in every project, ensuring high-quality results and learning from every experience.",
-        "prinTextTitle": "Main Technologies",
+        "prinTextTitle": "MAIN TECNOLOGIES",
         "tecs": [
           {
             "id": "1",
@@ -709,7 +729,7 @@
           ]
         },
         {
-          "category": "Certificates",
+          "category": "CERTIFICATES",
           "info": [
             {
               "id": "1",
@@ -722,7 +742,7 @@
           ]
         },
         {
-          "category": "Languages",
+          "category": "LANGUAGES",
           "info": [
             {
               "id": 1,
@@ -775,7 +795,7 @@
             "id": "3",
             "name": "TwoLifes",
             "url": "images/art/TwoLifes.webp",
-            "css": "lg:w-[714px] lg:h-[714px]"
+            "css": "lg:w-[510px] lg:h-[510px]"
           }
         ],
         "toolsTitle": "MAIN TOOLS",

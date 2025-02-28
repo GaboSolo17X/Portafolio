@@ -13,24 +13,23 @@ export const Estudios = () => {
 
   return (
     <>
-      <section className="flex mb-15">
-        <ul className="w-full h-full space-y-4 ">
+      <section className="flex mb-15 lg:mb-5">
+        <ul className="w-full h-full space-y-4">
           {degree.info.map((datos) => (
             <li
               key={datos.id}
-              className=" border-4  border-secondary rounded-2xl shadow-retro 
-                              dark:border-primary dark:shadow-retroDark"
+              className="font-body border-4 rounded-2xl shadow-retro lg:border-3 border-secondary dark:border-primary dark:shadow-retroDark"
             >
               {/* Header con fecha y círculos decorativos */}
-              <header className="flex items-center justify-between p-4 gap-4 md:p-6 border-b-4 h-12 border-secondary dark:border-primary">
-                <span className="whitespace-nowrap">{datos.year}</span>
-                <div className="hidden sm:flex border-4 w-4xl rounded-full">
-                  {" "}
-                </div>
+              <header className="flex items-center justify-between p-4 gap-4 h-8 border-b-4 md:p-6 lg:p-2 lg:border-b-3 border-secondary dark:border-primary">
+                <span className="whitespace-nowrap font-bold">
+                  {datos.year}
+                </span>
+                <div className="hidden sm:flex border-4 rounded-full w-4xl lg:border-3"></div>
                 <div className="flex gap-4">
-                  <div className="hidden md:flex w-8 h-8 ml-auto bg-secondary rounded-full dark:bg-primary "></div>
-                  <div className="hidden md:flex w-8 h-8 ml-auto bg-secondary rounded-full dark:bg-primary "></div>
-                  <div className="w-8 h-8 ml-auto bg-secondary rounded-full dark:bg-primary "></div>
+                  <div className="w-6 h-6 bg-secondary rounded-full md:w-5 md:h-5 ml-auto dark:bg-primary"></div>
+                  <div className="hidden md:flex w-6 h-6 bg-secondary rounded-full md:w-5 md:h-5 ml-auto dark:bg-primary"></div>
+                  <div className="hidden md:flex w-6 h-6 bg-secondary rounded-full md:w-5 md:h-5 ml-auto dark:bg-primary"></div>
                 </div>
               </header>
 
@@ -40,24 +39,22 @@ export const Estudios = () => {
                   src={datos.logo}
                   alt={datos.institution}
                   loading="lazy"
-                  className="border-4  border-secondary rounded-2xl w-20 h-20 mx-auto md:w-[82px] md:h-[82px] md:mx-0 md:mr-3 "
+                  className="w-20 h-20 mx-auto border-4 rounded-2xl md:w-21 md:h-21 md:mx-0 md:mr-3 lg:w-15 lg:h-15 lg:border-3 border-secondary"
                 />
-                <div className="flex flex-col justify-center  text-center md:text-left mt-4 md:mt-0 
-                                ">
-                  <h1 className="text-xl md:text-2xl font-bold">
+                <div className="flex flex-col justify-center mt-4 text-center md:text-left md:mt-0">
+                  <h1 className="text-xl font-bold md:text-2xl lg:text-lg">
                     {datos.degree}
                   </h1>
-                  <span className="text-lg md:text-xl mb-2">
+                  <span className="text-lg md:text-xl lg:text-base">
                     {datos.institution}
                   </span>
-
-                  <div className="inline-block  md:hidden mt-auto text-lg bg-secondary text-primary px-4 py-2 rounded-full dark:bg-primary">
+                  <div className="inline-block md:hidden mt-auto text-sm bg-secondary text-primary px-3 py-1 rounded-full dark:bg-primary dark:text-secondary">
                     {datos.status}
                   </div>
                 </div>
 
-                {/* Estado */}
-                <div className="hidden md:inline-block  ml-auto mt-auto text-lg  bg-secondary text-primary px-4 py-2 rounded-full dark:bg-primary">
+                {/* Estado (más pequeño en pantallas grandes) */}
+                <div className="hidden md:inline-block ml-auto mt-auto text-sm bg-secondary text-primary px-3 py-1 rounded-full dark:bg-primary dark:text-secondary">
                   {datos.status}
                 </div>
               </section>
@@ -67,43 +64,42 @@ export const Estudios = () => {
       </section>
 
       {/* Sección de certificados */}
-      <section className="mb-15">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-title mb-4">
+      <section className="mb-15 lg:mb-5">
+        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-title mb-1">
           {certificates.category}
         </h1>
         <ul>
           {certificates.info.map((datos) => (
             <li
               key={datos.id}
-              className=" border-4 w-full md:w-[500px] border-secondary rounded-2xl shadow-retro 
-                                       dark:border-primary dark:shadow-retroDark"
+              className="border-4 w-full md:w-[500px] rounded-2xl shadow-retro lg:border-3 lg:w-[400px] border-secondary dark:border-primary dark:shadow-retroDark"
             >
               {/* Header con fecha y círculos decorativos */}
-              <header className="flex items-center justify-between p-4 gap-4 md:p-6 border-b-4 h-12 border-secondary dark:border-primary">
-                <span className="whitespace-nowrap">{datos.year}</span>
-                <div className="hidden sm:flex border-4 w-4xl rounded-full">
-                  {" "}
-                </div>
+              <header className="flex items-center justify-between p-4 gap-4 h-8 border-b-4 md:p-6 lg:p-2 lg:border-b-3 border-secondary dark:border-primary">
+                <span className="whitespace-nowrap font-bold">
+                  {datos.year}
+                </span>
+                <div className="hidden sm:flex border-4 rounded-full w-4xl lg:border-3"></div>
                 <div className="flex gap-4">
-                  <div className="hidden md:flex w-8 h-8 ml-auto bg-secondary rounded-full dark:bg-primary "></div>
-                  <div className="hidden md:flex w-8 h-8 ml-auto bg-secondary rounded-full dark:bg-primary "></div>
-                  <div className="w-8 h-8 ml-auto bg-secondary rounded-full dark:bg-primary "></div>
+                  <div className="w-6 h-6 bg-secondary rounded-full md:w-5 md:h-5 ml-auto dark:bg-primary"></div>
+                  <div className="hidden md:flex w-6 h-6 bg-secondary rounded-full md:w-5 md:h-5 ml-auto dark:bg-primary"></div>
+                  <div className="hidden md:flex w-6 h-6 bg-secondary rounded-full md:w-5 md:h-5 ml-auto dark:bg-primary"></div>
                 </div>
               </header>
 
               {/* Sección de imagen y texto */}
-              <section className="flex flex-col justify-center md:flex-row md:justify-start p-4 md:p-6">
+              <section className="flex flex-col p-4 md:flex-row md:p-6 lg:p-4">
                 <img
                   src={datos.logo}
                   alt={datos.institution}
                   loading="lazy"
-                  className="border-4  border-secondary rounded-2xl w-20 h-20 mx-auto md:w-[82px] md:h-[82px] md:mx-0 md:mr-3 "
+                  className="w-20 h-20 mx-auto border-4 rounded-2xl md:w-21 md:h-21 md:mx-0 md:mr-3 lg:w-15 lg:h-15 lg:border-3 border-secondary"
                 />
-                <div className="flex flex-col justify-center  text-center md:text-left mt-4 md:mt-0">
-                  <h1 className="text-xl md:text-2xl font-bold">
+                <div className="flex flex-col justify-center mt-4 text-center md:text-left md:mt-0">
+                  <h1 className="text-xl font-bold md:text-2xl lg:text-lg">
                     {datos.title}
                   </h1>
-                  <span className="text-lg md:text-xl">
+                  <span className="text-lg md:text-xl lg:text-base">
                     {datos.institution}
                   </span>
                 </div>
@@ -114,32 +110,35 @@ export const Estudios = () => {
       </section>
 
       {/* Sección de idiomas */}
-      <section>
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-title mb-4">
+      <section className="pb-4 xl:pb-0">
+        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-title mb-1">
           {idioms.category}
         </h1>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <ul className="flex flex-wrap  gap-6">
+          {" "}
+          {/* Cambiamos grid por flex */}
           {idioms.info.map((datos) => (
             <li
               key={datos.id}
-              className="inline-block  border-4  border-secondary rounded-2xl shadow-retro 
-                                dark:border-primary dark:shadow-retroDark"
+              className="w-fit font-body border-4 rounded-2xl shadow-retro lg:border-3 border-secondary dark:border-primary dark:shadow-retroDark"
             >
-              <header className=" flex items-center justify-between p-5 border-b-4  h-10 border-secondary dark:border-primary ">
-                <div className="w-8 h-8 ml-auto bg-secondary rounded-full dark:bg-primary "></div>
+              <header className="flex items-center justify-between p-4 gap-4 h-8 border-b-4 md:p-6 lg:p-2 lg:border-b-3 border-secondary dark:border-primary">
+                <div className="w-6 h-6 bg-secondary rounded-full md:w-5 md:h-5 ml-auto dark:bg-primary"></div>
               </header>
-              <section className="flex flex-col md:flex-row p-4 md:p-6">
+              <section className="flex flex-col items-center p-4 gap-2 sm:flex-row sm:p-6 lg:p-4">
                 <img
                   src={datos.flag}
                   alt={datos.idiom}
                   loading="lazy"
-                  className="border-4  border-secondary rounded-2xl w-20 h-20 mx-auto md:w-[82px] md:h-[82px] md:mx-0 md:mr-3 "
+                  className="w-17 h-17 mx-auto border-4 rounded-2xl md:w-21 md:h-21 md:mx-0 md:mr-3 lg:w-13 lg:h-13 lg:border-3 border-secondary"
                 />
-                <div className="flex flex-col justify-center items-center text-center md:items-start mt-4 md:mt-0 ">
-                  <h1 className="text-xl md:text-2xl  font-bold">
+                <div className="flex flex-col justify-center mt-4 text-center sm:text-left md:mt-0">
+                  <h1 className="text-xl font-bold md:text-2xl lg:text-lg">
                     {datos.idiom}
                   </h1>
-                  <span className="text-lg md:text-xl">{datos.detail}</span>
+                  <span className="text-lg md:text-xl lg:text-base">
+                    {datos.detail}
+                  </span>
                 </div>
               </section>
             </li>

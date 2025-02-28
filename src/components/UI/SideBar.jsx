@@ -21,15 +21,15 @@ export const SideBar = ({ isSidebarOpen, toggleSidebar }) => {
   return (
     <>
       <aside className={`fixed lg:relative lg:flex flex-col h-screen items-center w-full bg-secondary/80 lg:w-64 dark:text-primary
-                  lg:bg-primary dark:bg-secondary/75 transition-transform duration-300 ease-in-out z-50 text-xl lg:text-xl
-                  ${isSidebarOpen ? "translate-x-0 w-64" : "-translate-x-full"} lg:translate-x-0`}>
+                  lg:bg-primary dark:bg-secondary/75 transition-transform duration-300 ease-in-out z-50 text-xl lg:text-sm
+                  ${isSidebarOpen ? "translate-x-0 w-64" : "-translate-x-full"} lg:translate-x-2`}>
         <div
-          className="fixed top-1/2 -translate-y-1/2 h-[580px] lg:h-[680px] w-18 ml-20 lg:ml-0 lg:w-25
-                  border-4 border-secondary rounded-full bg-primary lg:bg-none
+          className="fixed top-1/2 -translate-y-1/2 h-[580px] lg:h-[420px] w-18 ml-20 lg:ml-0 lg:w-14
+                  border-4 lg:border-3 border-secondary rounded-full bg-primary lg:bg-none
                   shadow-retro p-1 
                   dark:border-primary dark:bg-secondary dark:shadow-retroDark"
         >
-          <section className="flex flex-col flex-wrap items-center h-[400px] lg:h-[500px] place-content-evenly">
+          <section className="flex flex-col flex-wrap items-center h-[400px] lg:h-[270px] place-content-evenly">
             {sideBar.map((datos,index) => (
               <NavLink
                 to={datos.url}
@@ -47,12 +47,12 @@ export const SideBar = ({ isSidebarOpen, toggleSidebar }) => {
             ))}
           </section>
 
-          <section className="flex flex-col items-center mt-6">
+          <section className="flex flex-col items-center mt-6 lg:mt-4">
             <img
               src={selectedLanguage === "ES" ? español : ingles}
               alt="Spain Flag"
               loading="lazy"
-              className="mb-1 w-9 lg:w-11"
+              className="mb-1 w-9 lg:w-7"
             />
             <Toggle type="language" />
 
@@ -61,26 +61,12 @@ export const SideBar = ({ isSidebarOpen, toggleSidebar }) => {
                 selectedTheme === "light"
                   ? "fa-solid fa-sun"
                   : "fa-solid fa-moon"
-              } fa-xl mt-5 mb-4`}
+              } fa-xl  mt-5 mb-4`}
             ></i>
             <Toggle type="mode" />
           </section>
         </div>
       </aside>
-
-      {/* <Modal
-        isOpen={isSidebarOpen}
-        onRequestClose={closeModal}
-        style={customStyles}
-        contentLabel="Detalles del Proyecto"
-        ariaHideApp={false}
-      >
-        {isSidebarOpen && (
-          <>
-          
-          </>
-        )}
-      </Modal> */}
     </>
   );
 };

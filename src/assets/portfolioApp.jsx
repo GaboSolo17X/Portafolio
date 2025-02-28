@@ -25,7 +25,7 @@ export const PortfolioApp = () => {
           <TitleProvider>
             {/* Pasa el estado y la función de toggle al Sidebar */}
             <SideBar isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
-            <Content isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar}/>
+            <Content toggleSidebar={toggleSidebar}/>
             {/* Pasa la función de toggle al MobileNav */}
           </TitleProvider>
         </LanguageProvider>

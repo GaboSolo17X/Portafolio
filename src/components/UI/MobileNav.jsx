@@ -4,9 +4,9 @@ export const MobileNav = ({isSidebarOpen, toggleSidebar }) => {
     <div className="lg:hidden fixed left-5 z-51">
       <button
         onClick={toggleSidebar}
-        className="p-2 bg-salmon  rounded-full shadow-retro dark:shadow-retroDark"
+        className="bg-salmon w-10 h-10 rounded-full border-3 border-secondary dark:border-primary"
       >
-        <i className={`fa-solid fa-bars fa-xl`}></i>
+        <i className={`fa-solid fa-bars fa-lg`}></i>
       </button>
     </div>
   );

@@ -35,7 +35,7 @@ useEffect(() => {
   return (
     <div>
         <button 
-            className={`toggle-btn ${toggle ? "toggled" :"" }`}
+            className={`toggle-btn  ${toggle ? "toggled" :"" }`}
             onClick={type==="mode"?toggleMode:toggleLanguage}
         >
             <div className="thumb">
