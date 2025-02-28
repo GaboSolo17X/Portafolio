@@ -3,7 +3,6 @@ import español from "/images/languages/spainFlag.svg";
 import ingles from "/images/languages/usaFlag.svg";
 import { Toggle } from "../UI/Toggle";
 import { useContext } from "react";
-import { TitleContext } from "../../context/TitleProvider";
 import { LanguageContext } from "../../context/LanguageProvider";
 import { ThemeContext } from "../../context/ThemeProvider";
 import datos from "../../mocks/datos.json";
@@ -12,7 +11,6 @@ import datos from "../../mocks/datos.json";
 //flex justify-center w-[500px]
 export const SideBar = ({ isSidebarOpen, toggleSidebar }) => {
   const { selectedLanguage } = useContext(LanguageContext);
-  const { setSelectedTitle } = useContext(TitleContext);
   const { selectedTheme } = useContext(ThemeContext);
 
   const sideBar = datos[selectedLanguage].sidebar;
@@ -35,7 +33,7 @@ export const SideBar = ({ isSidebarOpen, toggleSidebar }) => {
                 to={datos.url}
                 key={index}
                 className={({ isActive }) => (isActive ? datos.url==="arte"? "linkActivoArte": "linkActivo" : "")}
-                onClick={() => {setSelectedTitle(datos.title), toggleSidebar()}}
+                onClick={() => {toggleSidebar()}}
               >
                 <span className={`inline-block p-2 ${datos.url==="arte"? "sideBarIconArt":"sideBarIcon"} group`}>
                   <i className={`${datos.icon} fa-xl `}></i>

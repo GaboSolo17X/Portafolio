@@ -22,6 +22,15 @@
   --breakpoint-3xl: 120rem;
 }
 
+.scrollStyle{
+  scrollbar-color: #252525 #F8F7F3;
+
+}
+.scrollStyleDark{
+  scrollbar-color: #F8F7F3 #252525 ;
+
+}
+
 
 .sideBarIcon{
   @apply relative flex items-center justify-center
@@ -42,13 +51,16 @@
 }
 
 .tooltip{
-  @apply absolute w-auto p-2 -m-4 min-w-max left-28  lg:left-24 rounded-md text-secondary
+  @apply absolute w-auto p-2 -m-4 min-w-max left-28  lg:left-20 rounded-md text-secondary
   lg:text-primary bg-primary lg:bg-secondary lg:dark:bg-primary  dark:text-secondary
   text-lg font-bold
   transition-all duration-100  origin-left
  
 }
 
+/* .tooltipTec{
+  @apply absolute w-auto
+} */
 
 
 .toggle-btn{

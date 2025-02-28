@@ -1,28 +1,40 @@
 import datos from "../../mocks/datos.json";
 import { LanguageContext } from "../../context/LanguageProvider";
 import { useContext } from "react";
+import { motion } from "framer-motion";
 
 export const Arte = () => {
   const { selectedLanguage } = useContext(LanguageContext);
   const art = datos[selectedLanguage].art.content;
   console.log(art);
+  const messages = {
+    ES: "Correo copiado correctamente",
+    EN: "Email copied to clipboard!",
+  };
 
-  // Copy the email to the clipboard
+  let message = messages[selectedLanguage];
+
+  // Copiar el correo
   const handleCopyEmail = () => {
     navigator.clipboard
       .writeText(art.email)
       .then(() => {
-        alert("Email copied to clipboard!");
+        alert(message);
       })
       .catch((err) => {
         console.error("Failed to copy email: ", err);
       });
   };
-
+  
   return (
     <>
       {art ? (
-        <>
+        <motion.main
+          initial={{ y: 100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{ y: -100, opacity: 0 }}
+          transition={{ duration: 0.5 }}
+        >
           {/* Sección superior: Imagen y descripción */}
           <section className="flex flex-col sm:flex-row gap-6 items-center lg:gap-10 xl:gap-5">
             {/* Imagen de perfil */}
@@ -130,7 +142,7 @@ export const Arte = () => {
               ))}
             </ul>
           </section>
-        </>
+        </motion.main>
       ) : (
         <p>No hay datos</p>
       )}

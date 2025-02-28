@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router";
+import { Routes, Route} from "react-router";
 import { PortfolioApp } from "../assets/portfolioApp";
 import { lazy } from "react";
 
@@ -21,24 +21,28 @@ const Estudios = lazy(() => import ("../components/sections/Estudios").then(modu
 const Arte = lazy(() => import ("../components/sections/Arte").then(module=>{
   return {default:module.Arte}
 }))
-// const PortfolioApp = lazy(() => import ("../assets/portfolioApp"))
+
 
 
 
 
 export const PortfolioRoutes = () => {
+
+
   return (
     
-    <Routes>
-      <Route path="/" element={<PortfolioApp />}>
-        <Route index element={<SobreMi />} /> {/* Página por defecto */}
-        <Route path="experiencia" element={<Experiencia />} />
-        <Route path="proyectos" element={<Proyectos />} />
-        <Route path="habilidades" element={<Habilidades />} />
-        <Route path="educacion" element={<Estudios />} />
-        <Route path="arte" element={<Arte />} />
-      </Route>
-    </Routes>
+    
+      <Routes >
+        <Route path="/" element={<PortfolioApp />}>
+          <Route index element={<SobreMi />} /> {/* Default page */}
+          <Route path="experiencia" element={<Experiencia />} />
+          <Route path="proyectos" element={<Proyectos />} />
+          <Route path="habilidades" element={<Habilidades />} />
+          <Route path="educacion" element={<Estudios />} />
+          <Route path="arte" element={<Arte />} />
+        </Route>
+      </Routes>
+ 
     
   );
 };

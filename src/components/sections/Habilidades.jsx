@@ -1,6 +1,7 @@
 import datos from "../../mocks/datos.json";
 import { LanguageContext } from "../../context/LanguageProvider";
 import { useContext } from "react";
+import { motion } from "framer-motion";
 
 export const Habilidades = () => {
   const { selectedLanguage } = useContext(LanguageContext);
@@ -13,7 +14,13 @@ export const Habilidades = () => {
   return (
     <>
       {skills ? (
-        <main className="w-full h-full p-4  gap-4 grid grid-cols-1 overflow-y-scroll lg:p-2 lg:grid-cols-1 xl:grid-cols-2">
+        <motion.main
+          initial={{ y: 100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{ y: -100, opacity: 0 }}
+          transition={{ duration: 0.5 }}
+          className="w-full h-full p-4  gap-4 grid grid-cols-1 overflow-y-scroll lg:p-5 lg:grid-cols-1 xl:grid-cols-2"
+        >
           {/* Categorias de habilidades */}
           {skills.categories.map((datos) => (
             <div
@@ -29,7 +36,7 @@ export const Habilidades = () => {
               </header>
 
               {/* Lista de habilidades */}
-              <ul className="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:gap-2 3xl:gap-4">
+              <ul className="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:gap-2 md:p-2 3xl:gap-4">
                 {skills.content
                   .filter((skill) => skill.area === datos.name)
                   .map((dato) => (
@@ -46,7 +53,7 @@ export const Habilidades = () => {
               </ul>
             </div>
           ))}
-        </main>
+        </motion.main>
       ) : (
         <p>No hay datos</p>
       )}

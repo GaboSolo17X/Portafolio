@@ -3,8 +3,8 @@ import { Content } from "../components/UI/Content";
 
 import { SideBar } from "../components/UI/SideBar";
 import { LanguageProvider } from "../context/LanguageProvider";
-import { TitleProvider } from "../context/TitleProvider";
 import { ThemeProvider } from "../context/ThemeProvider";
+import { AnimatePresence } from "framer-motion";
 
 export const PortfolioApp = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false); // Estado para controlar la visibilidad del Sidebar
@@ -22,12 +22,12 @@ export const PortfolioApp = () => {
     >
       <ThemeProvider>
         <LanguageProvider>
-          <TitleProvider>
             {/* Pasa el estado y la función de toggle al Sidebar */}
             <SideBar isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
-            <Content toggleSidebar={toggleSidebar}/>
+            <AnimatePresence mode="wait">
+             <Content toggleSidebar={toggleSidebar}/>
+            </AnimatePresence>
             {/* Pasa la función de toggle al MobileNav */}
-          </TitleProvider>
         </LanguageProvider>
       </ThemeProvider>
     </div>

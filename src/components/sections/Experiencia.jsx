@@ -1,17 +1,22 @@
 import { useContext } from "react";
 import datos from "../../mocks/datos.json";
 import { LanguageContext } from "../../context/LanguageProvider";
+import { motion } from "framer-motion";
 
 export const Experiencia = () => {
   const { selectedLanguage } = useContext(LanguageContext);
 
   const dataPortafolio = datos[selectedLanguage].experience.content;
-  const hasData = dataPortafolio.length > 0;
 
   return (
     <>
-      {hasData ? (
-        <ul className="h-full space-y-6">
+      {dataPortafolio ? (
+        <motion.ul 
+        initial={{ y: 100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        exit={{ y: -100, opacity: 0 }}
+        transition={{ duration: 0.5 }}
+        className="h-full space-y-6">
           {dataPortafolio.map((datos) => (
             <li
               key={datos.id}
@@ -56,7 +61,7 @@ export const Experiencia = () => {
               </section>
             </li>
           ))}
-        </ul>
+        </motion.ul>
       ) : (
         <p>No hay datos</p>
       )}
