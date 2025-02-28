@@ -22,6 +22,8 @@ export const Content = ({ toggleSidebar }) => {
         return "Educación";
       case "/arte":
         return "Arte";
+        case "/*":
+        return "404-Error";
       default:
         return "Sobre Mí";
     }

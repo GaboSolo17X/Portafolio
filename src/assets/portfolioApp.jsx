@@ -11,7 +11,7 @@ export const PortfolioApp = () => {
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
-    console.log(isSidebarOpen) // Función para alternar la visibilidad del Sidebar
+  
   };
 
   return (

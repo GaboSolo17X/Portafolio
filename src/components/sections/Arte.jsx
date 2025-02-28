@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export const Arte = () => {
   const { selectedLanguage } = useContext(LanguageContext);
   const art = datos[selectedLanguage].art.content;
-  console.log(art);
+  
   const messages = {
     ES: "Correo copiado correctamente",
     EN: "Email copied to clipboard!",

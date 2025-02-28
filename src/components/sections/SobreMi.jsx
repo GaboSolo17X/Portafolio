@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export const SobreMi = () => {
   const { selectedLanguage } = useContext(LanguageContext);
   const about = datos[selectedLanguage].about.content;
-  console.log(about);
+ 
 
   const messages = {
     ES: "Correo copiado correctamente",

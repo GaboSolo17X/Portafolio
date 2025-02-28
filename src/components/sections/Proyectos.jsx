@@ -84,7 +84,7 @@ export const Proyectos = () => {
                     className="w-[92%] md:h-auto m-0 font-body text-2xl border-4  lg:border-3 lg:w-[97%] lg:text-sm border-secondary rounded-2xl shadow-retro dark:border-primary dark:shadow-retroDark"
                   >
                     {/* Header del proyecto */}
-                    <header className="flex items-center justify-center md:justify-between p-5 border-b-4 lg:border-b-3 gap-5 h-10 border-secondary dark:border-primary">
+                    <header className="flex items-center text-xs sm:text-base justify-center md:justify-between p-5 border-b-4 lg:border-b-3 gap-5 h-10 border-secondary dark:border-primary">
                       <div className="text-center whitespace-nowrap">
                         {datos.name}
                       </div>
@@ -127,7 +127,7 @@ export const Proyectos = () => {
                         </div>
 
                         {/* Descripción del proyecto */}
-                        <p className="hidden xl:flex max-h-[80%] lg: p-4 text-xl lg:text-xs lg:h-[100px] lg:pt-2">
+                        <p className="hidden xl:flex max-h-[80%] lg: p-4 text-xl lg:text-xs lg:h-[100px] lg:pt-2 break-words whitespace-pre-line">
                           {datos.description}
                         </p>
 
