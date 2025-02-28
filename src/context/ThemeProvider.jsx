@@ -4,7 +4,7 @@ export const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
     const [selectedTheme, setSelectedTheme,] = useState('light');
-    console.log("ThemeContext se inicializo con:", selectedTheme)
+    
 
     useEffect(() => {
       if(selectedTheme==='dark'){
