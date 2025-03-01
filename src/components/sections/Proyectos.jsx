@@ -84,7 +84,7 @@ export const Proyectos = () => {
                     className="w-[92%] md:h-auto m-0 font-body text-2xl border-4  lg:border-3 lg:w-[97%] lg:text-sm border-secondary rounded-2xl shadow-retro dark:border-primary dark:shadow-retroDark"
                   >
                     {/* Header del proyecto */}
-                    <header className="flex items-center text-xs sm:text-base justify-center md:justify-between p-5 border-b-4 lg:border-b-3 gap-5 h-10 border-secondary dark:border-primary">
+                    <header className="flex items-center text-sm gap-5 h-10 sm:text-base justify-center md:justify-between p-5 border-b-4 lg:border-b-3 3xl:text-base  border-secondary dark:border-primary">
                       <div className="text-center whitespace-nowrap">
                         {datos.name}
                       </div>
@@ -127,12 +127,12 @@ export const Proyectos = () => {
                         </div>
 
                         {/* Descripción del proyecto */}
-                        <p className="hidden xl:flex max-h-[80%] lg: p-4 text-xl lg:text-xs lg:h-[100px] lg:pt-2 break-words whitespace-pre-line">
+                        <p className="hidden xl:flex max-h-[80%] lg: p-4 text-xl lg:text-xs lg:h-[100px] lg:pt-2 3xl:lg:h-[150px] 3xl:text-base 3xl:pt-4 break-words whitespace-pre-line">
                           {datos.description}
                         </p>
 
                         {/* Enlaces del proyecto */}
-                        <div className="hidden xl:flex justify-center gap-3 text-lg lg:text-xs lg:gap-2">
+                        <div className="hidden xl:flex justify-center gap-3 text-lg lg:text-xs lg:gap-5 3xl:text-base">
                           {datos.links.map((link) => (
                             <a href={link.url} target="_blank" key={link.web}>
                               <button className="w-45 px-2 py-2 lg:py-2 lg:px-1 lg:w-36 cursor-pointer shadow-retro rounded-full bg-secondary border-4 lg:border-3 border-primary text-primary hover:bg-salmon hover:text-primary dark:bg-primary dark:border-secondary dark:text-secondary dark:shadow-retroDark">
