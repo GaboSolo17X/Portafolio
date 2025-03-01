@@ -69,7 +69,7 @@ export const SideBar = ({ isSidebarOpen, toggleSidebar }) => {
       <aside
         className={`fixed bottom-0 w-full lg:hidden text-xl flex dark:text-primary z-50`}
       >
-        <div className="flex flex-row w-full justify-between items-center h-18 sm:h-20 text-base sm:px-4 md:px-6 sm:text-lg md:text-xl bg-primary border-4 border-secondary rounded-full dark:bg-secondary dark:border-primary ">
+        <div className="flex flex-row w-full justify-between items-center h-17 sm:h-20 text-base sm:px-4 md:px-6 sm:text-lg md:text-xl bg-primary border-4 border-secondary rounded-full dark:bg-secondary dark:border-primary ">
           {/* Sección de enlaces */}
           <section className="flex flex-row w-full justify-around items-center">
             {sideBar.map((datos, index) => (
