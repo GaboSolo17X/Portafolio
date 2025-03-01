@@ -226,7 +226,7 @@
           "name": "Proyecto Practica Profesional",
           "category": "BI",
           "image": "/images/projects/bcie.webp",
-          "description": "Proyecto de mi practica profesional donde ajuste los queries que conformaban el tablero, mejorando el tiempo de carga en un 90% y algunos cambios en la UI del mismo. Mayor reto analizar y entender como funcionaba el tablero.\nContacto: Ing.Nelson Diaz, Telefono:+504 9994-0403",
+          "description": "Proyecto de mi practica profesional donde ajuste los queries que conformaban el tablero, mejorando el tiempo de carga en un 90% y algunos cambios en la UI del mismo. Mayor reto analizar y entender como funcionaba el tablero.\nContacto: Ing.Nelson Diaz, Correo:diaznelson23@gmail.com",
           "tecs": [
             {
               "idTec": 1,
@@ -475,7 +475,7 @@
         "tools": [
           {
             "id": "1",
-            "tec": "Skecthbook Pro",
+            "tec": "Sketchbook Pro",
             "icon": "/icons/sketchbook.svg"
           },
           {
@@ -719,7 +719,7 @@
           "name": "Internship Project",
           "category": "BI",
           "image": "/images/projects/bcie.webp",
-          "description": "A project from my internship where I optimized the queries used in the dashboard, improving loading times by 90% and making some UI changes. The biggest challenge was analyzing and understanding how the dashboard worked.\nContact: Ing.Nelson Diaz, Phone:+504 9994-0403",
+          "description": "A project from my internship where I optimized the queries used in the dashboard, improving loading times by 90% and making some UI changes. The biggest challenge was analyzing and understanding how the dashboard worked.\nContact: Ing.Nelson Diaz, Email:diaznelson23@gmail.com",
           "tecs": [
             {
               "idTec": 1,
