@@ -44,10 +44,10 @@ export const Experiencia = () => {
                   className="w-20 h-20 mx-auto border-4 rounded-2xl md:w-21 md:h-21 md:mx-0 md:mr-3 lg:w-15 lg:h-15 lg:border-3 border-secondary"
                 />
                 <div className="flex flex-col justify-center mt-4 text-center md:text-left md:mt-0">
-                  <h1 className="text-xl font-bold md:text-2xl lg:text-lg">
+                  <h1 className="text-xl font-bold md:text-2xl lg:text-lg 3xl:text-2xl">
                     {datos.job}
                   </h1>
-                  <span className="text-lg md:text-xl lg:text-base">
+                  <span className="text-lg md:text-xl lg:text-base 3xl:text-2xl">
                     {datos.company}
                   </span>
                 </div>

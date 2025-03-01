@@ -33,7 +33,7 @@ export const Content = ({ toggleSidebar }) => {
 
   return (
     <main className="flex flex-auto flex-col items-center p-2 overflow-auto">
-      <div className="w-full max-w-full  lg:max-w-[1100px] xl:max-w-[1100px] 3xl:max-w-[1500px] h-full border-4 lg:border-3 border-secondary rounded-2xl dark:border-primary">
+      <div className="w-full max-w-full h-[calc(95%-30px)] sm:h-[calc(95%-35px)] lg:h-full lg:max-w-[1000px] xl:max-w-[1300px] 3xl:max-w-[1500px]  border-4 lg:border-3 border-secondary rounded-2xl dark:border-primary">
         {/* Header */}
         <header className="flex flex-row justify-between border-b-4 lg:border-b-3 h-20 p-5">
           <div>
@@ -58,7 +58,7 @@ export const Content = ({ toggleSidebar }) => {
         </header>
 
         {/* Contenido principal */}
-        <section className=" p-4 pb-0 md:p-10 md:pt-5 lg:p-4 h-[calc(100%-85px)] lg:h-[calc(100%-85px)] font-body text-sm text-secondary dark:text-primary overflow-y-auto md:text-xl  lg:text-sm 3xl:text-xl scrollStyleDark">
+        <section className=" p-4 pb-0 md:p-10 md:pt-5 h-[calc(100%-85px)] lg:p-4 font-body text-sm text-secondary dark:text-primary overflow-y-auto md:text-xl  lg:text-sm 3xl:text-xl scrollStyleDark">
           <Suspense fallback={<h1>Cargando...</h1>}>
             <Outlet />
           </Suspense>

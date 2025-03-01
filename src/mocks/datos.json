@@ -467,7 +467,7 @@
             "id": "3",
             "name": "TwoLifes",
             "url": "images/art/TwoLifes.webp",
-            "css": "lg:w-[510px] lg:h-[510px]"
+            "css": "md:w-[350px] md:h-[350px] lg:w-[610px] lg:h-[610px] 3xl:w-[710px] 3xl:h-[710px]"
           }
         ],
         "toolsTitle": "PROGRAMAS PRINCIPALES",

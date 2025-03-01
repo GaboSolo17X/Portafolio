@@ -16,7 +16,7 @@ export const Habilidades = () => {
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: -100, opacity: 0 }}
           transition={{ duration: 0.5 }}
-          className="w-full h-full p-4  gap-4 grid grid-cols-1 overflow-y-scroll lg:p-5 lg:grid-cols-1 xl:grid-cols-2"
+          className="w-full h-full p-4  gap-4 grid grid-cols-1 overflow-y-scroll lg:p-5 lg:grid-cols-1 xl:grid-cols-3"
         >
           {/* Categorias de habilidades */}
           {skills.categories.map((datos) => (
@@ -33,16 +33,16 @@ export const Habilidades = () => {
               </header>
 
               {/* Lista de habilidades */}
-              <ul className="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:gap-2 md:p-2 3xl:gap-4">
+              <ul className="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:gap-2 md:p-2 3xl:gap-4 ">
                 {skills.content
                   .filter((skill) => skill.area === datos.name)
                   .map((dato) => (
                     <li
                       key={dato.id}
-                      className="flex justify-center items-center h-14 px-4 py-2  rounded-full bg-secondary text-primary sm:text-base md:gap-2 lg:h-8  lg:text-base xl:test-lg 3xl:h-14 3xl:py-6 font-body dark:bg-primary dark:text-secondary"
+                      className="flex justify-center items-center h-14 px-4 py-2  rounded-full sm:text-base md:gap-2 lg:text-sm lg:h-12     bg-secondary text-primary dark:bg-primary dark:text-secondary"
                     >
                       <i
-                        className={`hidden md:flex ${dato.icon} fa-xl mr-3`}
+                        className={`hidden md:flex ${dato.icon} fa-xl mr-3 lg:mr-0`}
                       ></i>
                       <span>{dato.skill}</span>
                     </li>

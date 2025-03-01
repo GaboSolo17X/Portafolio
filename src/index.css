@@ -34,7 +34,7 @@
 
 .sideBarIcon{
   @apply relative flex items-center justify-center
-  h-10 w-10 lg:h-8 lg:w-8 mt-1 mb-1 mx-auto rounded-lg
+  h-10 w-10 md:w-13 md:h-13 lg:h-8 lg:w-8 mt-1 mb-1 lg:mx-auto rounded-lg
   transition-transform duration-200 ease-in-out 
   hover:bg-salmon hover:text-primary hover:scale-110
 
@@ -44,7 +44,7 @@
 
 .sideBarIconArt{
   @apply relative flex items-center justify-center
-  h-10 w-10 lg:h-8 lg:w-8 mt-1 mb-1 mx-auto rounded-lg
+  h-10 w-10 md:w-13 md:h-13 m-0 lg:h-8 lg:w-8 lg:mt-1 lg:mb-1 lg:mx-auto rounded-lg
   transition-transform duration-200 ease-in-out 
   hover:bg-gradient-to-r from-artPink to-artBlue hover:text-primary hover:scale-110
   
@@ -98,7 +98,7 @@
 .linkActivo{
   @apply  bg-salmon text-primary scale-110
   relative flex items-center justify-center
-  h-10 w-10 lg:h-8 lg:w-8 mt-1 mb-1 mx-auto rounded-lg 
+  h-10 w-10 md:w-13 md:h-13 lg:h-8 lg:w-8 mt-1 mb-1 lg:mx-auto rounded-lg 
   transition-transform duration-200 ease-in-out 
 }
 .linkActivo .tooltip{
@@ -108,7 +108,7 @@
 .linkActivoArte{
   @apply  bg-gradient-to-r from-artPink to-artBlue text-primary scale-110
   relative flex items-center justify-center
-  h-10 w-10 lg:h-8 lg:w-8 mt-1 mb-1 mx-auto rounded-lg
+  h-10 w-10 md:w-13 md:h-13 lg:h-8 lg:w-8 mt-1 mb-1 lg:mx-auto rounded-lg
   transition-transform duration-200 ease-in-out 
 }
 
