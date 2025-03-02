@@ -71,7 +71,7 @@ export const SideBar = ({ isSidebarOpen, toggleSidebar }) => {
       >
         <div className="flex flex-row w-full justify-between items-center h-17 sm:h-20 text-base sm:px-4 md:px-6 sm:text-lg md:text-xl bg-primary border-4 border-secondary rounded-full dark:bg-secondary dark:border-primary ">
           {/* Sección de enlaces */}
-          <section className="flex flex-row w-full justify-around items-center">
+          <section className="flex flex-row w-full justify-around items-center  ">
             {sideBar.map((datos, index) => (
               <NavLink
                 to={datos.url}
