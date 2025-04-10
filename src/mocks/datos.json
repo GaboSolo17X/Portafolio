@@ -127,7 +127,7 @@
           "name": "PlanCo",
           "category": "UI/UX",
           "image": "/images/projects/travelApp.webp",
-          "description": "Proyecto para poder practicar las habilidades de UI/UX aprendidas en el curso de Figma Essentials y aprender nuevos elementos de documentacion sobre estilos, colores y branding .",
+          "description": "Proyecto para poder practicar las habilidades de UI/UX aprendidas en el curso de Figma Essentials y aprender nuevos elementos de documentacion sobre estilos, colores y branding. Actualmente me encuentro programandolo",
           "tecs": [
             {
               "idTec": 1,
@@ -245,6 +245,26 @@
           ],
           "links": [
 
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Udemy Project",
+          "category": "UI/UX",
+          "image": "/images/projects/udemyProject.svg",
+          "description": "Proyecto final para el curso de Figma Essentials donde realice una app sencilla para poder comprar cafe.",
+          "tecs": [
+            {
+              "idTec": 1,
+              "tec": "Figma",
+              "icon": "fa-brands fa-figma"
+            }
+          ],
+          "links": [
+            {
+              "web": "Figma",
+              "url": "https://www.figma.com/design/ewxmZwbFGrlBxleL1S2pD6/Udemy-Project?node-id=275-446&t=hn0SnLHvYuRKelZl-1"
+            }
           ]
         }
       ]
@@ -619,7 +639,7 @@
           "name": "PlanCo",
           "category": "UI/UX",
           "image": "/images/projects/travelApp.webp",
-          "description": "A project to practice the UI/UX skills I learned in the Figma Essentials course and to explore new elements of documentation related to styles, colors, and branding.",
+          "description": "A project to practice the UI/UX skills I learned in the Figma Essentials course and to explore new elements of documentation related to styles, colors, and branding. I’m currently in the process of developing it.",
           "tecs": [
             {
               "idTec": 1,
@@ -736,6 +756,26 @@
             }
           ],
           "links": []
+        },
+        {
+          "id": 6,
+          "name": "Udemy Project",
+          "category": "UI/UX",
+          "image": "/images/projects/udemyProject.svg",
+          "description": "Final project for the Figma Essentials course, where I created a simple app to buy coffee.",
+          "tecs": [
+            {
+              "idTec": 1,
+              "tec": "Figma",
+              "icon": "fa-brands fa-figma"
+            }
+          ],
+          "links": [
+            {
+              "web": "Figma",
+              "url": "https://www.figma.com/design/ewxmZwbFGrlBxleL1S2pD6/Udemy-Project?node-id=275-446&t=hn0SnLHvYuRKelZl-1"
+            }
+          ]
         }
       ]
     },
